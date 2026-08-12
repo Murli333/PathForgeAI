@@ -1,0 +1,241 @@
+,skill,job_count,demand_pct,category
+0,communication,2815,44.52000632611102,Soft Skills
+1,python,2472,39.09536612367547,Programming Languages
+2,sql,2086,32.990668986240706,Programming Languages
+3,agile,1648,26.063577415783644,Project Management & Methodologies
+4,c,1454,22.995413569508145,Programming Languages
+5,java,1381,21.840898307765304,Programming Languages
+6,leadership,1349,21.334809425905423,Soft Skills
+7,collaboration,1284,20.30681638462755,Soft Skills
+8,javascript,1023,16.17902894195793,Programming Languages
+9,machine learning,874,13.822552585797881,Data Science & Machine Learning
+10,ci/cd,752,11.893088723707102,DevOps & CI/CD
+11,go,706,11.165585956033528,Programming Languages
+12,kubernetes,702,11.102324845801045,DevOps & CI/CD
+13,linux,688,10.880910959987347,Operating Systems
+14,docker,667,10.548790131266804,DevOps & CI/CD
+15,git,618,9.773841530918867,Version Control & Collaboration
+16,html,584,9.236122093942749,Web Development - Frontend
+17,r,565,8.935631820338447,Programming Languages
+18,react,550,8.698402656966628,Web Development - Frontend
+19,mentoring,489,7.7336707259212405,Soft Skills
+20,excel,480,7.591333227898149,Business & Analytics Tools
+21,scrum,447,7.069429068480152,Project Management & Methodologies
+22,etl,436,6.8954610153408185,Data Engineering & Big Data
+23,statistics,423,6.6898624070852435,Data Science & Machine Learning
+24,oracle,408,6.452633243713427,Databases
+25,terraform,407,6.436817966155306,DevOps & CI/CD
+26,windows,406,6.421002688597185,Operating Systems
+27,problem solving,406,6.421002688597185,Soft Skills
+28,microservices,401,6.341926300806579,Web Development - Backend
+29,jenkins,379,5.993990194527914,DevOps & CI/CD
+30,typescript,368,5.820022141388581,Programming Languages
+31,css,354,5.598608255574885,Web Development - Frontend
+32,data pipelines,345,5.456270757551795,Data Engineering & Big Data
+33,teamwork,330,5.219041594179978,Soft Skills
+34,angular,327,5.171595761505614,Web Development - Frontend
+35,design patterns,318,5.029258263482524,API & Architecture
+36,scala,318,5.029258263482524,Programming Languages
+37,kafka,314,4.965997153250039,Data Engineering & Big Data
+38,jira,314,4.965997153250039,Version Control & Collaboration
+39,tableau,313,4.950181875691919,Business & Analytics Tools
+40,data visualization,296,4.6813221572038595,Data Science & Machine Learning
+41,artificial intelligence,288,4.554799936738889,Data Science & Machine Learning
+42,power bi,274,4.333386050925194,Business & Analytics Tools
+43,github,270,4.2701249406927095,Version Control & Collaboration
+44,powershell,261,4.127787442669619,Programming Languages
+45,risk management,261,4.127787442669619,Project Management & Methodologies
+46,snowflake,254,4.017080499762771,Databases
+47,node.js,247,3.906373556855923,Web Development - Backend
+48,bash,244,3.858927724181559,Programming Languages
+49,unix,241,3.8114818915071957,Operating Systems
+50,microsoft azure,237,3.7482207812747115,Cloud Platforms
+51,less,232,3.6691443934841055,Web Development - Frontend
+52,ansible,232,3.6691443934841055,DevOps & CI/CD
+53,infrastructure as code,227,3.5900680056935004,DevOps & CI/CD
+54,mysql,218,3.4477305076704092,Databases
+55,system design,216,3.416099952554167,API & Architecture
+56,unit testing,213,3.368654119879804,Testing & QA
+57,data warehousing,213,3.368654119879804,Data Engineering & Big Data
+58,product management,212,3.352838842321683,Project Management & Methodologies
+59,hadoop,191,3.0207180136011385,Data Engineering & Big Data
+60,databricks,191,3.0207180136011385,Data Engineering & Big Data
+61,apache,187,2.957456903368654,DevOps & CI/CD
+62,deep learning,183,2.8941957931361695,Data Science & Machine Learning
+63,pytorch,183,2.8941957931361695,Data Science & Machine Learning
+64,rest api,180,2.846749960461806,API & Architecture
+65,graphql,178,2.8151194053455635,API & Architecture
+66,postgresql,172,2.7202277399968366,Databases
+67,tensorflow,168,2.6569666297643524,Data Science & Machine Learning
+68,firewalls,166,2.62533607464811,Cybersecurity
+69,critical thinking,158,2.498813854183141,Soft Skills
+70,mongodb,156,2.4671832990668987,Databases
+71,gitlab,156,2.4671832990668987,Version Control & Collaboration
+72,spring boot,153,2.4197374663925353,Web Development - Backend
+73,network security,149,2.3564763561600506,Cybersecurity
+74,decision making,144,2.2773999683694446,Soft Skills
+75,amazon web services,138,2.1825083030207177,Cloud Platforms
+76,ruby,133,2.103431915230112,Programming Languages
+77,time management,133,2.103431915230112,Soft Skills
+78,computer vision,132,2.087616637671991,Data Science & Machine Learning
+79,confluence,129,2.040170804997628,Version Control & Collaboration
+80,presentation skills,128,2.0243555274395066,Soft Skills
+81,encryption,124,1.9610944172070222,Cybersecurity
+82,natural language processing,124,1.9610944172070222,Data Science & Machine Learning
+83,tcp/ip,124,1.9610944172070222,Networking
+84,selenium,122,1.9294638620907796,Testing & QA
+85,siem,121,1.9136485845326585,Cybersecurity
+86,airflow,117,1.850387474300174,Data Engineering & Big Data
+87,dns,117,1.850387474300174,Networking
+88,shell scripting,116,1.8345721967420527,Programming Languages
+89,object-oriented programming,108,1.7080499762770835,API & Architecture
+90,kotlin,104,1.644788866044599,Programming Languages
+91,redis,104,1.644788866044599,Databases
+92,salesforce,102,1.6131583109283567,Business & Analytics Tools
+93,google cloud platform,102,1.6131583109283567,Cloud Platforms
+94,hive,100,1.5815277558121146,Data Engineering & Big Data
+95,soap,99,1.5657124782539933,Web Development - Backend
+96,sap,96,1.5182666455796299,Business & Analytics Tools
+97,swift,95,1.5024513680215088,Programming Languages
+98,matlab,94,1.4866360904633877,Programming Languages
+99,php,93,1.4708208129052665,Programming Languages
+100,integration testing,92,1.4550055353471452,Testing & QA
+101,iot,92,1.4550055353471452,Embedded Systems & Hardware
+102,prototyping,90,1.423374980230903,Design & UI/UX
+103,dynamodb,87,1.3759291475565396,Databases
+104,grafana,83,1.312668037324055,DevOps & CI/CD
+105,puppet,82,1.2968527597659338,DevOps & CI/CD
+106,microservices architecture,77,1.2177763719753283,API & Architecture
+107,chef,77,1.2177763719753283,DevOps & CI/CD
+108,asp.net,77,1.2177763719753283,Web Development - Backend
+109,perl,76,1.201961094417207,Programming Languages
+110,bitbucket,75,1.186145816859086,Version Control & Collaboration
+111,penetration testing,75,1.186145816859086,Cybersecurity
+112,kanban,73,1.1545152617428436,Project Management & Methodologies
+113,test-driven development,72,1.1386999841847223,Testing & QA
+114,prometheus,72,1.1386999841847223,DevOps & CI/CD
+115,dbt,72,1.1386999841847223,Data Engineering & Big Data
+116,scikit-learn,69,1.0912541515103589,Data Science & Machine Learning
+117,vpn,69,1.0912541515103589,Networking
+118,junit,68,1.075438873952238,Testing & QA
+119,cassandra,67,1.0596235963941167,Databases
+120,assembly,66,1.0438083188359955,Programming Languages
+121,bigquery,65,1.0279930412778744,Databases
+122,jquery,65,1.0279930412778744,Web Development - Frontend
+123,pandas,64,1.0121777637197533,Data Science & Machine Learning
+124,c++,64,1.0121777637197533,Programming Languages
+125,mlops,64,1.0121777637197533,Data Science & Machine Learning
+126,rust,63,0.996362486161632,Programming Languages
+127,apache spark,57,0.9014708208129052,Data Engineering & Big Data
+128,waterfall,55,0.869840265696663,Project Management & Methodologies
+129,react native,54,0.8540249881385418,Mobile Development
+130,bootstrap,54,0.8540249881385418,Web Development - Frontend
+131,django,53,0.8382097105804207,Web Development - Backend
+132,project planning,53,0.8382097105804207,Project Management & Methodologies
+133,microsoft sql server,52,0.8223944330222995,Databases
+134,redux,52,0.8223944330222995,Web Development - Frontend
+135,postman,52,0.8223944330222995,Testing & QA
+136,numpy,50,0.7907638779060573,Data Science & Machine Learning
+137,feature engineering,48,0.7591333227898149,Data Science & Machine Learning
+138,cypress,46,0.7275027676735726,Testing & QA
+139,elasticsearch,46,0.7275027676735726,Databases
+140,iso 27001,46,0.7275027676735726,Cybersecurity
+141,owasp,45,0.7116874901154515,Cybersecurity
+142,github actions,44,0.6958722125573304,DevOps & CI/CD
+143,svn,44,0.6958722125573304,Version Control & Collaboration
+144,adaptability,44,0.6958722125573304,Soft Skills
+145,looker,42,0.6642416574410881,Business & Analytics Tools
+146,flask,41,0.6484263798829669,Web Development - Backend
+147,red hat,40,0.6326111023248459,Operating Systems
+148,oracle cloud,39,0.6167958247667247,Cloud Platforms
+149,rtos,38,0.6009805472086035,Embedded Systems & Hardware
+150,grpc,37,0.5851652696504824,Web Development - Backend
+151,objective-c,35,0.5535347145342401,Programming Languages
+152,ruby on rails,35,0.5535347145342401,Web Development - Backend
+153,automation testing,34,0.537719436976119,Testing & QA
+154,vue.js,33,0.5219041594179977,Web Development - Frontend
+155,pmp,33,0.5219041594179977,Project Management & Methodologies
+156,flink,33,0.5219041594179977,Data Engineering & Big Data
+157,six sigma,32,0.5060888818598767,Project Management & Methodologies
+158,slack,32,0.5060888818598767,Version Control & Collaboration
+159,visual basic,32,0.5060888818598767,Programming Languages
+160,c#,32,0.5060888818598767,Programming Languages
+161,webpack,31,0.49027360430175554,Web Development - Frontend
+162,reinforcement learning,31,0.49027360430175554,Data Science & Machine Learning
+163,load balancing,30,0.4744583267436343,Networking
+164,keras,30,0.4744583267436343,Data Science & Machine Learning
+165,flutter,29,0.4586430491855132,Mobile Development
+166,sass,29,0.4586430491855132,Web Development - Frontend
+167,manual testing,28,0.44282777162739206,Testing & QA
+168,unity,28,0.44282777162739206,Game Development
+169,ui design,28,0.44282777162739206,Design & UI/UX
+170,model deployment,27,0.4270124940692709,Data Science & Machine Learning
+171,cobol,27,0.4270124940692709,Programming Languages
+172,data structures and algorithms,26,0.41119721651114977,API & Architecture
+173,macos,26,0.41119721651114977,Operating Systems
+174,vulnerability assessment,26,0.41119721651114977,Cybersecurity
+175,android development,25,0.39538193895302864,Mobile Development
+176,ubuntu,23,0.3637513838367863,Operating Systems
+177,embedded c,23,0.3637513838367863,Embedded Systems & Hardware
+178,next.js,22,0.3479361062786652,Web Development - Frontend
+179,matplotlib,21,0.33212082872054405,Data Science & Machine Learning
+180,ios development,20,0.3163055511624229,Mobile Development
+181,express.js,20,0.3163055511624229,Web Development - Backend
+182,presto,20,0.3163055511624229,Data Engineering & Big Data
+183,nginx,20,0.3163055511624229,DevOps & CI/CD
+184,load testing,19,0.30049027360430175,Testing & QA
+185,conflict resolution,19,0.30049027360430175,Soft Skills
+186,figma,18,0.2846749960461806,Design & UI/UX
+187,fastapi,18,0.2846749960461806,Web Development - Backend
+188,gitlab ci/cd,18,0.2846749960461806,DevOps & CI/CD
+189,google analytics,18,0.2846749960461806,Business & Analytics Tools
+190,laravel,18,0.2846749960461806,Web Development - Backend
+191,fpga,16,0.25304444092993833,Embedded Systems & Hardware
+192,microcontrollers,15,0.23722916337181715,Embedded Systems & Hardware
+193,cloudflare,15,0.23722916337181715,Cloud Platforms
+194,spacy,14,0.22141388581369603,Data Science & Machine Learning
+195,nltk,14,0.22141388581369603,Data Science & Machine Learning
+196,lua,14,0.22141388581369603,Programming Languages
+197,sqlite,14,0.22141388581369603,Databases
+198,network administration,14,0.22141388581369603,Networking
+199,seaborn,13,0.20559860825557488,Data Science & Machine Learning
+200,neo4j,13,0.20559860825557488,Databases
+201,routing and switching,13,0.20559860825557488,Networking
+202,pytest,13,0.20559860825557488,Testing & QA
+203,qa methodologies,12,0.18978333069745373,Testing & QA
+204,opencv,11,0.1739680531393326,Data Science & Machine Learning
+205,firebase,10,0.15815277558121146,Databases
+206,opengl,10,0.15815277558121146,Game Development
+207,sql server reporting services,9,0.1423374980230903,Business & Analytics Tools
+208,julia,8,0.12652222046496917,Programming Languages
+209,photoshop,8,0.12652222046496917,Design & UI/UX
+210,vhdl,8,0.12652222046496917,Embedded Systems & Hardware
+211,xgboost,8,0.12652222046496917,Data Science & Machine Learning
+212,ibm cloud,7,0.11070694290684802,Cloud Platforms
+213,ionic,7,0.11070694290684802,Mobile Development
+214,mariadb,6,0.09489166534872687,Databases
+215,dart,6,0.09489166534872687,Programming Languages
+216,verilog,6,0.09489166534872687,Embedded Systems & Hardware
+217,nestjs,6,0.09489166534872687,Web Development - Backend
+218,ux research,5,0.07907638779060573,Design & UI/UX
+219,unreal engine,5,0.07907638779060573,Game Development
+220,http/https,4,0.06326111023248458,Networking
+221,3d modeling,4,0.06326111023248458,Game Development
+222,user testing,4,0.06326111023248458,Design & UI/UX
+223,heroku,4,0.06326111023248458,Cloud Platforms
+224,security auditing,4,0.06326111023248458,Cybersecurity
+225,xamarin,4,0.06326111023248458,Mobile Development
+226,svelte,4,0.06326111023248458,Web Development - Frontend
+227,directx,3,0.04744583267436343,Game Development
+228,raspberry pi,3,0.04744583267436343,Embedded Systems & Hardware
+229,arduino,3,0.04744583267436343,Embedded Systems & Hardware
+230,adobe xd,3,0.04744583267436343,Design & UI/UX
+231,trello,3,0.04744583267436343,Version Control & Collaboration
+232,ethical hacking,3,0.04744583267436343,Cybersecurity
+233,asana,3,0.04744583267436343,Version Control & Collaboration
+234,tailwind css,3,0.04744583267436343,Web Development - Frontend
+235,wireframing,2,0.03163055511624229,Design & UI/UX
+236,sketch,2,0.03163055511624229,Design & UI/UX
+237,fortran,2,0.03163055511624229,Programming Languages
+238,illustrator,2,0.03163055511624229,Design & UI/UX
+239,game design,2,0.03163055511624229,Game Development
