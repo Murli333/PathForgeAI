@@ -1,0 +1,1715 @@
+{
+  "results": {
+    "javascript": {
+      "skill": "javascript",
+      "tasks": [
+        {
+          "task": "Developing and maintaining frontend/backend web and mobile application code",
+          "classification": "AI-augmented",
+          "reason": "AI tools can generate boilerplate code and common functions, but complex architectural decisions, system integration, and debugging require human judgment."
+        },
+        {
+          "task": "Writing and maintaining automated test suites (UI, unit, and integration testing)",
+          "classification": "AI-substitutable",
+          "reason": "Modern AI agents are highly effective at writing, running, and updating unit and integration tests based on existing codebase patterns, reducing manual overhead."
+        },
+        {
+          "task": "Debugging and troubleshooting complex software issues",
+          "classification": "AI-augmented",
+          "reason": "AI can quickly identify syntax errors and common patterns, but resolving logic errors in enterprise-scale distributed systems requires deep context of the business domain."
+        },
+        {
+          "task": "Refactoring code for performance, readability, and security",
+          "classification": "AI-augmented",
+          "reason": "AI excels at identifying technical debt and suggesting refactored patterns, but developers must verify performance impacts and security implications in production environments."
+        },
+        {
+          "task": "Collaborating with stakeholders on project requirements and functional design",
+          "classification": "AI-complementary",
+          "reason": "Translating vague human business needs into technical solutions involves high-level empathy, negotiation, and strategy, which are uniquely human traits."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "JavaScript development is heavily impacted by AI-assisted coding tools (like Copilot and LLMs) that streamline syntax generation and testing. While routine implementation tasks are increasingly automatable, the role remains AI-augmented because enterprise engineering requires navigating complex architectures, security compliance, and direct collaboration with business stakeholders, which AI cannot currently manage autonomously."
+    },
+    "communication": {
+      "skill": "communication",
+      "tasks": [
+        {
+          "task": "Technical documentation and writing (design documents, user guides, code comments)",
+          "classification": "AI-augmented",
+          "reason": "AI excels at drafting and summarizing technical documentation based on code or system specs, but human verification is required for accuracy and alignment with internal standards."
+        },
+        {
+          "task": "Collaborating with cross-functional teams (developers, data scientists, stakeholders)",
+          "classification": "AI-complementary",
+          "reason": "This involves nuance, conflict resolution, alignment of business requirements, and interpersonal influence, which require human emotional intelligence and domain context."
+        },
+        {
+          "task": "Client-facing interactions and relationship management",
+          "classification": "AI-complementary",
+          "reason": "Building cohesive working relationships and managing client expectations at a strategic level depends on human judgment and trust-building that AI cannot replicate."
+        },
+        {
+          "task": "Presenting information to auditors and external parties",
+          "classification": "AI-augmented",
+          "reason": "AI can prepare data-driven presentations and reports efficiently, but the delivery, contextual defense, and strategic answering of questions remain human-led."
+        },
+        {
+          "task": "Providing performance feedback and mentoring",
+          "classification": "AI-complementary",
+          "reason": "Management roles require empathy, personalized development guidance, and organizational authority, which are inherently human leadership functions."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.4,
+      "summary": "Communication within these technical roles is heavily focused on translating complex system requirements into stakeholder-friendly language and managing human teams. While AI can significantly accelerate documentation and information preparation (augmentation), the core of the skill—leadership, negotiation, and building professional trust—remains resistant to AI replacement."
+    },
+    "css": {
+      "skill": "css",
+      "tasks": [
+        {
+          "task": "Frontend website architecture and styling",
+          "classification": "AI-augmented",
+          "reason": "AI models can generate syntactically correct CSS and modern layouts (Flexbox/Grid), but human intervention is required to ensure design system consistency, brand alignment, and cross-browser responsiveness."
+        },
+        {
+          "task": "Ensuring responsiveness and cross-device performance",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze code for responsiveness patterns, but testing across fragmented hardware and network conditions requires human verification and strategic performance tuning."
+        },
+        {
+          "task": "Code maintenance and adherence to coding standards",
+          "classification": "AI-substitutable",
+          "reason": "AI tools are highly effective at refactoring, linting, and applying organizational style guides to CSS files, often automating the majority of syntax-based maintenance."
+        },
+        {
+          "task": "Collaboration with design teams and UX implementation",
+          "classification": "AI-complementary",
+          "reason": "Translating subjective design concepts into functional interfaces requires complex human communication, domain expertise, and the ability to interpret non-technical stakeholder requirements."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "CSS is a highly automatable skill regarding syntax and basic layout implementation, leading to high exposure to AI-assisted coding tools (e.g., Copilot). However, because CSS is intrinsically tied to user experience, brand identity, and complex design systems, human judgment remains essential for high-level decision-making and cross-functional project execution."
+    },
+    "mysql": {
+      "skill": "mysql",
+      "tasks": [
+        {
+          "task": "Database schema design and architecture",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest normalized schemas and optimize structures, but human architects must ensure alignment with complex business requirements and distributed system constraints."
+        },
+        {
+          "task": "Query writing and optimization",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at writing SQL queries and optimizing execution plans based on provided schema and index information."
+        },
+        {
+          "task": "Database administration and maintenance",
+          "classification": "AI-augmented",
+          "reason": "Automated tools and AI can monitor performance, detect anomalies, and suggest indexing, but human judgment is required for critical recovery, security configurations, and capacity planning."
+        },
+        {
+          "task": "Integration with application backends",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate code and ORM mappings, but integrating database layers into complex application logic requires human verification for security and reliability."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "MySQL development is heavily impacted by AI, particularly in query generation, schema optimization, and performance tuning. While AI can automate routine SQL tasks, the role remains 'AI-augmented' because SQL is deeply tied to proprietary business logic, data integrity, and architectural decisions that require human oversight."
+    },
+    "html": {
+      "skill": "html",
+      "tasks": [
+        {
+          "task": "Building interfaces and web application elements",
+          "classification": "AI-augmented",
+          "reason": "AI tools can generate boilerplate HTML and structure, but human developers must ensure semantic integrity, accessibility compliance, and design intent."
+        },
+        {
+          "task": "Debugging and troubleshooting frontend visual discrepancies",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest fixes for common CSS/HTML layout issues, but complex cross-browser/cross-device rendering requires human validation."
+        },
+        {
+          "task": "Converting functional specifications and design mockups into code",
+          "classification": "AI-substitutable",
+          "reason": "Generative AI excels at translating UI wireframes or design tokens into standard HTML/CSS, significantly reducing manual coding time."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "HTML, as a standardized markup language, is highly susceptible to automation. While AI can generate the vast majority of structural code from designs or prompts, it remains augmented because professional software roles require human judgment for accessibility, integration with backend dynamic data, and maintenance of complex enterprise design systems."
+    },
+    "object-oriented programming": {
+      "skill": "object-oriented programming",
+      "tasks": [
+        {
+          "task": "Writing and implementing modular, maintainable, and clean code",
+          "classification": "AI-augmented",
+          "reason": "AI tools like Copilot and LLMs can generate boilerplate and structural patterns, but human oversight is required for architectural integrity and complex logic integration."
+        },
+        {
+          "task": "Applying design patterns to complex systems",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest appropriate patterns based on architectural needs, but the selection and adaptation of these patterns within specific business constraints require human judgment."
+        },
+        {
+          "task": "Refactoring and maintaining existing legacy codebases",
+          "classification": "AI-substitutable",
+          "reason": "AI is highly effective at identifying technical debt, syntax modernization, and standardizing code according to established OOP principles with minimal human intervention."
+        },
+        {
+          "task": "Mentoring, coaching, and leading technical architecture discussions",
+          "classification": "AI-complementary",
+          "reason": "These tasks rely on social intelligence, team alignment, and domain-specific decision-making that AI cannot replicate."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Object-oriented programming (OOP) serves as a foundational structural skill. While AI is increasingly capable of generating and refactoring routine OOP code, the core value of the skill in these job postings involves applying architectural patterns, integrating complex systems, and exercising judgment during high-stakes technical leadership—areas where human expertise remains essential."
+    },
+    "collaboration": {
+      "skill": "collaboration",
+      "tasks": [
+        {
+          "task": "Cross-functional team coordination and communication",
+          "classification": "AI-complementary",
+          "reason": "Requires human empathy, negotiation, and building consensus across diverse stakeholder groups with competing priorities, which AI cannot replicate."
+        },
+        {
+          "task": "Consulting with business units to align requirements and strategy",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze data patterns and architectural standards to suggest improvements, but human experts must interpret business intent and drive strategic alignment."
+        },
+        {
+          "task": "Collaborating with technical teams for incident remediation and system design",
+          "classification": "AI-augmented",
+          "reason": "AI can provide real-time diagnostic data and pattern-matching for security or engineering issues, but human collaboration is essential for complex decision-making and cross-team workflows."
+        },
+        {
+          "task": "Communicating technical concepts to non-technical stakeholders",
+          "classification": "AI-complementary",
+          "reason": "Translating complex information for non-technical audiences relies on social intelligence, domain context, and the ability to manage stakeholder expectations."
+        }
+      ],
+      "overall_classification": "AI-complementary",
+      "ai_exposure_score": 0.3,
+      "summary": "Collaboration is primarily a human-centric skill. While AI tools can assist by aggregating information and documenting processes, the core of the task—aligning diverse teams, managing internal politics, and negotiating strategic requirements—remains deeply reliant on human judgment and interpersonal dynamics."
+    },
+    "php": {
+      "skill": "php",
+      "tasks": [
+        {
+          "task": "Writing and maintaining application code (backend logic/APIs)",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate and standard functions efficiently, but complex business logic, security integration, and architectural alignment require human oversight."
+        },
+        {
+          "task": "Troubleshooting, debugging, and refactoring existing codebases",
+          "classification": "AI-augmented",
+          "reason": "AI excels at identifying common syntax errors and patterns, but deep system-level debugging within a specific organizational context still requires human expertise."
+        },
+        {
+          "task": "System architecture design and high-level architectural leadership",
+          "classification": "AI-complementary",
+          "reason": "Designing scalable systems and providing strategic guidance involves navigating business constraints and long-term project risks that require human judgment."
+        },
+        {
+          "task": "Collaboration and cross-functional team communication",
+          "classification": "AI-complementary",
+          "reason": "Defining business needs and aligning technical solutions with sales, management, and internal teams is inherently human-centric."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "PHP development, as evidenced by the job postings, is moving toward high-level integration with modern frameworks (Laravel) and cloud services. While AI can significantly accelerate coding and debugging (AI-augmented), the roles described emphasize leadership, architectural strategy, and team collaboration, which remain AI-complementary."
+    },
+    "postgresql": {
+      "skill": "postgresql",
+      "tasks": [
+        {
+          "task": "Database schema design and architecture",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest normalized schemas and optimized indexes, but human architects must make final decisions based on specific business domain requirements and performance trade-offs."
+        },
+        {
+          "task": "Query writing and optimization",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating, refactoring, and optimizing standard SQL queries, often performing this task faster and more accurately than manual coding."
+        },
+        {
+          "task": "Data pipeline and ETL development",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in writing scripts for data migration and ETL, but complex integration and ensuring data integrity across disparate systems require significant human oversight."
+        },
+        {
+          "task": "Database security and compliance management",
+          "classification": "AI-complementary",
+          "reason": "Implementing security practices (like HIPAA compliance mentioned in Job 3) requires human judgment regarding policy, legal requirements, and situational context that AI cannot verify autonomously."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "PostgreSQL-related work is highly susceptible to AI-assisted coding and query optimization. While routine database administration and syntax generation are becoming increasingly automated, the tasks of architectural design, security compliance, and aligning database performance with complex business logic remain deeply rooted in human expertise."
+    },
+    "python": {
+      "skill": "python",
+      "tasks": [
+        {
+          "task": "Automated data processing and workflow implementation",
+          "classification": "AI-substitutable",
+          "reason": "Python scripts for data pipelines and structured/unstructured dataset processing are increasingly generated or optimized by AI tools with minimal manual intervention."
+        },
+        {
+          "task": "Writing scripts for configuration compliance and system scanning",
+          "classification": "AI-substitutable",
+          "reason": "Standardized scripting for checking baseline deviations and system configuration is a high-volume, repeatable task well-suited for AI generation."
+        },
+        {
+          "task": "Microservice-based infrastructure development",
+          "classification": "AI-augmented",
+          "reason": "While AI can generate boilerplate code for microservices, the architecture design, integration, and security logic require human verification and domain-specific judgment."
+        },
+        {
+          "task": "Collaborative problem-solving and cross-functional system design",
+          "classification": "AI-complementary",
+          "reason": "These roles require deep context on business goals, stakeholder alignment, mentoring, and technical leadership that AI cannot independently navigate."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Python's role in the job market is shifting. While it remains a primary language for automation and data manipulation—tasks that are becoming highly AI-substitutable—it is also the foundation for complex cloud-native system engineering. The skill is increasingly 'AI-augmented,' where the engineer uses AI to accelerate coding and automation, allowing them to focus on the higher-level architecture and cross-team leadership described in the job postings."
+    },
+    "react": {
+      "skill": "react",
+      "tasks": [
+        {
+          "task": "Developing and maintaining front-end user interfaces",
+          "classification": "AI-augmented",
+          "reason": "AI tools like GitHub Copilot and ChatGPT excel at generating boilerplate code, components, and styling, but human developers must integrate these into complex state management, logic, and specific business architectures."
+        },
+        {
+          "task": "Collaborating with product leaders and stakeholders on design and requirements",
+          "classification": "AI-complementary",
+          "reason": "Translation of ambiguous user needs and business objectives into technical features requires human empathy, strategic negotiation, and organizational context that AI cannot replicate."
+        },
+        {
+          "task": "Debugging and troubleshooting complex technical challenges",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest fixes for common errors and analyze logs efficiently, yet identifying root causes in large, proprietary codebases requires human domain expertise and architectural understanding."
+        },
+        {
+          "task": "Code reviews and maintaining code quality standards",
+          "classification": "AI-augmented",
+          "reason": "AI can perform static analysis and identify potential bugs or security flaws, but human judgment is required to evaluate code maintainability, team standards, and alignment with project goals."
+        },
+        {
+          "task": "Integrating with external APIs and backend services",
+          "classification": "AI-augmented",
+          "reason": "AI can draft API integration logic, but establishing secure, performant, and reliable connections between disparate enterprise systems requires human verification and system-wide knowledge."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "React development is currently shifting from manual coding to an AI-augmented workflow. While AI tools are highly effective at generating UI components and boilerplate code, the role remains centered on high-level architecture, complex problem-solving, and cross-functional collaboration—areas where human judgment and domain context remain indispensable. The AI exposure score reflects that a significant portion of the 'coding' task is now assisted, but the 'engineering' task remains human-led."
+    },
+    "express.js": {
+      "skill": "express.js",
+      "tasks": [
+        {
+          "task": "Boilerplate code generation for API endpoints and routing",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating standard Express.js route structures, middleware patterns, and CRUD boilerplate code from natural language prompts."
+        },
+        {
+          "task": "Debugging and troubleshooting backend logic",
+          "classification": "AI-augmented",
+          "reason": "AI can identify common syntax errors and logical flaws in Express middleware, but human judgment is required to understand the specific business logic and application context."
+        },
+        {
+          "task": "Architecting scalable microservices and system design",
+          "classification": "AI-complementary",
+          "reason": "Designing distributed systems requires deep domain context, stakeholder alignment, and complex tradeoff decisions that go beyond code generation."
+        },
+        {
+          "task": "Unit and integration testing of API services",
+          "classification": "AI-augmented",
+          "reason": "AI tools can write high-quality test suites (using Jest/Supertest), but human oversight is essential to ensure test coverage meets project-specific requirements."
+        },
+        {
+          "task": "Mentoring, code reviews, and cross-functional collaboration",
+          "classification": "AI-complementary",
+          "reason": "These tasks rely on human communication, empathy, team leadership, and understanding of internal company culture, which are outside the capability of AI."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Express.js development involves a significant amount of repetitive implementation of HTTP protocols and API scaffolding, which are highly susceptible to AI automation. However, the role remains AI-augmented because the core responsibilities—system architecture, security compliance, cross-functional collaboration, and business logic implementation—require significant human judgment and technical expertise."
+    },
+    "agile": {
+      "skill": "agile",
+      "tasks": [
+        {
+          "task": "Collaborating across cross-functional teams",
+          "classification": "AI-complementary",
+          "reason": "Requires high-level interpersonal communication, negotiation, and human alignment that AI cannot replicate."
+        },
+        {
+          "task": "Planning and managing software development life cycles (SDLC)",
+          "classification": "AI-augmented",
+          "reason": "AI can optimize sprint velocity, predict bottlenecks, and automate backlog management, but human judgment is required for strategic prioritization."
+        },
+        {
+          "task": "Ensuring shared accountability and team synchronization",
+          "classification": "AI-complementary",
+          "reason": "Building culture, trust, and shared commitment to goals are human-centric leadership responsibilities."
+        },
+        {
+          "task": "Executing iterative software delivery and continuous improvement",
+          "classification": "AI-augmented",
+          "reason": "AI can facilitate the continuous integration/continuous deployment (CI/CD) pipelines and suggest process improvements based on performance metrics."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.4,
+      "summary": "Agile methodologies rely heavily on human communication, team dynamics, and complex negotiation—areas where AI serves as a powerful facilitator rather than a replacement. While AI can significantly optimize the administrative and data-driven aspects of Agile (such as velocity tracking and backlog organization), the core essence of the practice remains anchored in human interaction and stakeholder management."
+    },
+    "product management": {
+      "skill": "product management",
+      "tasks": [
+        {
+          "task": "Translating business requirements into engineering backlogs and user stories",
+          "classification": "AI-augmented",
+          "reason": "AI can draft user stories and refine backlog items from raw requirements, but human verification is needed to ensure alignment with complex business logic and stakeholder intent."
+        },
+        {
+          "task": "Collaborating across cross-functional teams (Engineering, UX, Marketing)",
+          "classification": "AI-complementary",
+          "reason": "This task relies on interpersonal negotiation, building consensus, and conflict resolution, which require human emotional intelligence and organizational context."
+        },
+        {
+          "task": "Analyzing market trends and identifying opportunities for product improvement",
+          "classification": "AI-augmented",
+          "reason": "AI excels at processing large datasets to identify patterns and insights, but product managers must apply strategic judgment to decide which opportunities align with company vision."
+        },
+        {
+          "task": "Defining product problems, architectural vision, and high-level strategy",
+          "classification": "AI-complementary",
+          "reason": "Strategic decision-making, setting a mission-driven direction, and navigating organizational ambiguity are deeply rooted in human experience and leadership."
+        },
+        {
+          "task": "Managing technical project dependencies and risk mitigation",
+          "classification": "AI-augmented",
+          "reason": "AI tools can track complex status, monitor dependencies, and predict bottlenecks, but humans must manage the political and operational execution of mitigation plans."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Product management is heavily supported by AI in the tactical areas of documentation, data analysis, and backlog maintenance. However, the core of the role—cross-functional leadership, strategic visioning, and navigating business-technical trade-offs—remains deeply human-centric, making it an augmented profession rather than one slated for substitution."
+    },
+    "node.js": {
+      "skill": "node.js",
+      "tasks": [
+        {
+          "task": "Developing backend REST and GraphQL services",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate code, API structures, and routine logic, but human architects must ensure security, scalability, and alignment with complex business requirements."
+        },
+        {
+          "task": "Designing system architecture for scalable, distributed systems",
+          "classification": "AI-complementary",
+          "reason": "Designing high-level, reliable, and secure architectures requires deep domain context, stakeholder negotiation, and tradeoff analysis that AI cannot yet autonomously manage."
+        },
+        {
+          "task": "Unit testing and code quality management",
+          "classification": "AI-substitutable",
+          "reason": "AI tools are highly proficient at writing unit tests, identifying bugs, and suggesting refactoring improvements based on established patterns."
+        },
+        {
+          "task": "Mentoring junior engineers and leading technical teams",
+          "classification": "AI-complementary",
+          "reason": "Mentorship, team leadership, and the ability to negotiate technical solutions with non-technical stakeholders are fundamentally human-centric activities."
+        },
+        {
+          "task": "Integrating and deploying cloud-native applications (AWS/Serverless)",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in configuring cloud infrastructure as code (IaC), but human oversight is essential to govern governance, compliance, and cost-efficiency."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Node.js development is currently in a state of high AI-augmentation. While AI excels at the tactical level of writing code, debugging, and testing, the roles defined in the job postings—which emphasize architecture, mentorship, cross-functional collaboration, and business-aligned systems design—remain heavily reliant on human expertise and judgment."
+    },
+    "google cloud platform": {
+      "skill": "google cloud platform",
+      "tasks": [
+        {
+          "task": "Infrastructure deployment and resource provisioning via Infrastructure as Code (Terraform, ARM)",
+          "classification": "AI-augmented",
+          "reason": "AI can generate and suggest IaC scripts, but human verification is required to ensure complex security policies and architectural compliance are met."
+        },
+        {
+          "task": "Cloud architecture design and modernization of legacy systems",
+          "classification": "AI-complementary",
+          "reason": "Requires high-level strategic decision-making, understanding of business context, and stakeholder negotiation that AI cannot currently replicate."
+        },
+        {
+          "task": "Monitoring, performance tuning, and troubleshooting (BigQuery queries, logs, network performance)",
+          "classification": "AI-augmented",
+          "reason": "AI is highly effective at identifying performance bottlenecks and anomalous patterns in logs, but human expertise is needed for root cause resolution in enterprise environments."
+        },
+        {
+          "task": "CI/CD pipeline implementation and automation",
+          "classification": "AI-substitutable",
+          "reason": "Standard pipeline definitions, build scripts, and deployment automation tasks are highly repeatable and increasingly handled by AI-driven DevOps tooling."
+        },
+        {
+          "task": "Data engineering, data pipeline development, and database management",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in schema design and query optimization, but designing data flows that meet complex compliance and business logic requirements remains a human-led activity."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Google Cloud Platform roles are highly susceptible to AI augmentation. While routine infrastructure provisioning and basic coding tasks are becoming AI-substitutable, the roles identified (architects, engineers) require deep domain knowledge, security compliance expertise, and business context, placing them firmly in the AI-augmented category where human oversight remains critical."
+    },
+    "ci/cd": {
+      "skill": "ci/cd",
+      "tasks": [
+        {
+          "task": "Pipeline design and architecture",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest best-practice pipeline structures and patterns, but humans must determine the specific needs of the business, legacy constraints, and unique security requirements."
+        },
+        {
+          "task": "Scripting and automation code development",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at writing routine Groovy, YAML, and shell scripts for CI/CD pipelines, significantly reducing manual coding time."
+        },
+        {
+          "task": "Pipeline monitoring, log analysis, and troubleshooting",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze massive log datasets to identify anomalies or root causes faster than humans, but human engineers must verify findings and apply contextual fixes."
+        },
+        {
+          "task": "Security vulnerability scanning and compliance integration",
+          "classification": "AI-substitutable",
+          "reason": "Modern CI/CD tools integrate automated AI/ML-driven security scanning to detect vulnerabilities without constant human oversight."
+        },
+        {
+          "task": "Cross-team collaboration, requirements gathering, and strategic planning",
+          "classification": "AI-complementary",
+          "reason": "Facilitating communication between dev/ops teams, managing organizational change, and aligning technical strategy with business goals require high-level human social and strategic judgment."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "CI/CD is increasingly becoming an 'AI-augmented' discipline. While the creation of pipeline code and the detection of deployment failures are highly susceptible to AI automation, the role remains critical due to the need for human oversight of complex enterprise ecosystems, risk management, and the coordination of cross-functional teams to ensure deployments align with shifting business objectives."
+    },
+    "mentoring": {
+      "skill": "mentoring",
+      "tasks": [
+        {
+          "task": "Technical knowledge transfer and skill development for junior/peer engineers",
+          "classification": "AI-augmented",
+          "reason": "AI can provide personalized learning materials and code explanations, but human mentors are required for context-specific guidance and professional development."
+        },
+        {
+          "task": "Guidance on organizational culture, soft skills, and professional conduct",
+          "classification": "AI-complementary",
+          "reason": "Mentoring involves empathy, trust-building, and navigating social dynamics within a company—human-centric traits that AI cannot replicate."
+        },
+        {
+          "task": "Code reviews and providing constructive feedback on technical solutions",
+          "classification": "AI-augmented",
+          "reason": "AI tools can automate syntax and basic logic checks, but human mentors provide strategic project insight and alignment with business goals."
+        },
+        {
+          "task": "Direct management, team growth, and raising the engineering bar",
+          "classification": "AI-complementary",
+          "reason": "Building teams and fostering a collaborative culture requires leadership, motivation, and the ability to evaluate subjective human performance."
+        }
+      ],
+      "overall_classification": "AI-complementary",
+      "ai_exposure_score": 0.2,
+      "summary": "Mentoring is primarily a human-to-human activity that relies on empathy, shared organizational context, and leadership. While AI can assist in the delivery of educational content or technical code reviews (augmentation), the core value of mentoring—nurturing professional relationships, guiding career trajectories, and fostering team culture—remains outside the scope of current and near-future AI capabilities."
+    },
+    "mongodb": {
+      "skill": "mongodb",
+      "tasks": [
+        {
+          "task": "Database schema design and data modeling",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest efficient document structures and indexing strategies based on usage patterns, but human architects must validate these against complex business requirements and domain constraints."
+        },
+        {
+          "task": "Query optimization and performance tuning",
+          "classification": "AI-substitutable",
+          "reason": "AI tools can analyze query execution plans, identify bottlenecks, and automatically suggest or apply indexes to optimize read/write performance."
+        },
+        {
+          "task": "Database maintenance, monitoring, and administration",
+          "classification": "AI-substitutable",
+          "reason": "Modern cloud-based database services use AI to automate routine maintenance, automated scaling, backup management, and anomaly detection."
+        },
+        {
+          "task": "Integration of NoSQL databases into enterprise application architectures",
+          "classification": "AI-complementary",
+          "reason": "Selecting the right database technology (e.g., MongoDB vs. SQL) requires deep human understanding of organizational needs, project scope, and long-term maintainability."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "MongoDB development and administration is increasingly influenced by AI-driven tooling for performance tuning and maintenance. While rote operational tasks are becoming AI-substitutable, the strategic design of data systems within complex enterprise architectures remains a high-value human expertise that is augmented rather than replaced."
+    },
+    "typescript": {
+      "skill": "typescript",
+      "tasks": [
+        {
+          "task": "Writing boilerplate code and common UI components",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating standard TypeScript components, interfaces, and boilerplate code based on design specifications."
+        },
+        {
+          "task": "Automated testing (Unit, Integration, E2E)",
+          "classification": "AI-augmented",
+          "reason": "AI can generate test scripts (e.g., Playwright/Jest), but humans must define the business logic edge cases and verify the validity of complex test scenarios."
+        },
+        {
+          "task": "Architectural decision-making and system design",
+          "classification": "AI-complementary",
+          "reason": "Choosing infrastructure, designing scalable backend systems, and aligning technical solutions with enterprise business goals requires human context, judgment, and risk assessment."
+        },
+        {
+          "task": "Troubleshooting, debugging, and complex system integration",
+          "classification": "AI-augmented",
+          "reason": "AI can quickly identify syntax errors or common anti-patterns, but debugging intermittent issues across distributed systems (AWS/Azure) requires deep understanding of the specific environment and stack."
+        },
+        {
+          "task": "Collaboration and cross-functional leadership",
+          "classification": "AI-complementary",
+          "reason": "Mentorship, navigating ambiguous requirements, and driving solutions based on customer priority are inherently human-centric tasks that AI cannot replicate."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "TypeScript developers in these roles serve as primary architects of logic and infrastructure. While AI is highly effective at automating routine coding tasks and generating tests, the roles emphasize complex cloud-native architecture, enterprise integration, and cross-functional collaboration, which remain firmly human-led."
+    },
+    "sql": {
+      "skill": "sql",
+      "tasks": [
+        {
+          "task": "Writing and optimizing complex queries",
+          "classification": "AI-augmented",
+          "reason": "AI excels at generating boilerplate SQL and optimizing syntax, but human validation is required to ensure query logic aligns with specific application requirements and performance constraints."
+        },
+        {
+          "task": "Database design and schema architecture",
+          "classification": "AI-complementary",
+          "reason": "Designing robust, normalized, and scalable architectures requires deep understanding of business context, long-term data strategy, and organizational constraints that go beyond simple code generation."
+        },
+        {
+          "task": "Troubleshooting and performance tuning",
+          "classification": "AI-augmented",
+          "reason": "AI can identify bottlenecks and suggest indexing or refactoring strategies, but humans must exercise judgment in applying changes to live, mission-critical systems."
+        },
+        {
+          "task": "Data reporting and dashboard creation",
+          "classification": "AI-substitutable",
+          "reason": "Tools are increasingly capable of automatically mapping data to visualizations and executing the underlying SQL, reducing the manual labor required for standard reporting tasks."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "SQL remains a fundamental skill, but its application is shifting from syntax writing to architectural oversight and performance optimization. While AI can handle query generation and routine reporting effectively, senior roles (as evidenced in the job postings) require complex problem-solving, system integration, and domain expertise that AI complements but does not replace."
+    },
+    "data warehousing": {
+      "skill": "data warehousing",
+      "tasks": [
+        {
+          "task": "ETL/ELT pipeline development and data integration",
+          "classification": "AI-substitutable",
+          "reason": "AI tools and modern orchestration platforms are increasingly capable of generating, mapping, and automating data pipelines, reducing the need for manual code writing."
+        },
+        {
+          "task": "Database schema design, modeling, and index optimization",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze access patterns to recommend optimal schemas and indexes, but human architectural judgment is required to balance business logic, performance, and long-term scalability."
+        },
+        {
+          "task": "Translating business requirements into data architecture",
+          "classification": "AI-complementary",
+          "reason": "This task requires deep domain context, stakeholder collaboration, and the ability to interpret evolving business goals—areas where human nuanced understanding is essential."
+        },
+        {
+          "task": "Data profiling, cleansing, and normalization",
+          "classification": "AI-substitutable",
+          "reason": "AI models excel at pattern recognition, detecting anomalies, and automating routine data quality tasks at scale."
+        },
+        {
+          "task": "Reporting and dashboard development",
+          "classification": "AI-augmented",
+          "reason": "AI can generate visual representations and identify trends, but human experts must ensure the accuracy of the insights and their alignment with organizational strategy."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.7,
+      "summary": "Data warehousing is undergoing a significant transformation due to AI. While the heavy lifting of pipeline creation and data cleansing is increasingly automated (AI-substitutable), the core roles of architectural design and bridging the gap between technical infrastructure and strategic business requirements remain heavily reliant on human expertise and institutional knowledge."
+    },
+    "presentation skills": {
+      "skill": "presentation skills",
+      "tasks": [
+        {
+          "task": "Articulating technical solution architectures and diagrams to stakeholders",
+          "classification": "AI-augmented",
+          "reason": "AI can generate diagrams and draft clear narratives from technical specs, but human expertise is needed to tailor the complexity to the specific audience's level of understanding."
+        },
+        {
+          "task": "Communicating value propositions and differentiating product stories in sales cycles",
+          "classification": "AI-complementary",
+          "reason": "Effective persuasion in high-stakes sales requires emotional intelligence, trust-building, and real-time navigation of human social dynamics which AI cannot replicate."
+        },
+        {
+          "task": "Responding to RFIs/RFPs regarding functional and technical requirements",
+          "classification": "AI-substitutable",
+          "reason": "AI is highly efficient at synthesizing technical documentation and institutional knowledge to populate standardized response templates."
+        },
+        {
+          "task": "Technical advising and advocating for product solutions during client evaluations",
+          "classification": "AI-complementary",
+          "reason": "This task requires deep domain context, credibility, and the ability to pivot based on the unique, often unstated, business priorities of the client."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.5,
+      "summary": "Presentation skills in these roles involve a mix of high-utility technical synthesis (AI-substitutable) and high-touch strategic influence (AI-complementary). While AI can handle the creation of visuals and documentation, the role of a 'trusted advisor' in sales and architecture remains fundamentally human-led to ensure alignment with business objectives and client sentiment."
+    },
+    "kafka": {
+      "skill": "kafka",
+      "tasks": [
+        {
+          "task": "Developing and coding Kafka producer/consumer applications",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate code and optimize messaging patterns, but human developers must ensure business logic and system-specific integration requirements are met."
+        },
+        {
+          "task": "Real-time stream processing and event-based data ingestion",
+          "classification": "AI-augmented",
+          "reason": "AI tools can suggest schema designs and optimize performance metrics, but complex pipeline orchestration requires human judgment for reliability and data integrity."
+        },
+        {
+          "task": "Troubleshooting production performance bottlenecks",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze log patterns and identify potential latency issues in Kafka clusters, but resolving deep-seated system architecture issues requires human domain expertise."
+        },
+        {
+          "task": "Architecting large-scale distributed messaging systems",
+          "classification": "AI-complementary",
+          "reason": "Determining how Kafka fits into a global architectural strategy involves complex trade-offs, stakeholder management, and long-term organizational vision that AI cannot yet provide."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Kafka-related work is highly susceptible to AI-driven automation in terms of routine coding and performance monitoring (high exposure). However, it remains deeply embedded in complex system architecture and business-critical data flows, where human judgment is essential for maintaining system reliability and strategic alignment."
+    },
+    "encryption": {
+      "skill": "encryption",
+      "tasks": [
+        {
+          "task": "Implementation and configuration of encryption standards and protocols",
+          "classification": "AI-augmented",
+          "reason": "AI can automate the generation of configuration scripts and identify gaps in security policies, but human validation is required to ensure compliance with specific architectural and regulatory frameworks."
+        },
+        {
+          "task": "Compliance auditing and verification of data protection measures",
+          "classification": "AI-augmented",
+          "reason": "AI excels at scanning massive datasets to check for encryption at rest and in transit, but determining the business context and risk tolerance remains a human-led process."
+        },
+        {
+          "task": "Designing secure architectural frameworks and access controls",
+          "classification": "AI-complementary",
+          "reason": "Designing robust, multi-layered security architectures requires deep institutional knowledge, alignment with unique business goals, and ethical judgment that transcends pattern matching."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.45,
+      "summary": "Encryption tasks are increasingly augmented by AI-driven tools that can identify misconfigurations and automate standard security deployments. However, the design of cryptographic strategies and the high-level management of organizational security remain inherently human-led, as they require complex contextual decision-making and accountability."
+    },
+    "penetration testing": {
+      "skill": "penetration testing",
+      "tasks": [
+        {
+          "task": "Automated vulnerability scanning and identification",
+          "classification": "AI-substitutable",
+          "reason": "AI tools can efficiently perform routine scans, identify known vulnerabilities, and map attack surfaces at a scale and speed humans cannot match."
+        },
+        {
+          "task": "Exploit development and complex security research",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in generating code snippets and testing exploit payloads, but expert verification is required to assess context, risk, and potential for collateral system damage."
+        },
+        {
+          "task": "Security architectural review and threat modeling",
+          "classification": "AI-complementary",
+          "reason": "These tasks require deep business context, understanding of non-technical stakeholder priorities, and high-level judgment regarding risk versus business functionality."
+        },
+        {
+          "task": "Liaison with researchers and remediation coordination",
+          "classification": "AI-complementary",
+          "reason": "Coordinating with human researchers, managing cross-functional teams, and driving remediation initiatives are inherently human-centric tasks involving communication and leadership."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.6,
+      "summary": "Penetration testing is undergoing significant shift due to AI. While the identification phase is increasingly AI-substitutable, the role is becoming more AI-augmented. High-level strategic decisions, understanding of unique business/infrastructure contexts, and the ability to manage the remediation lifecycle remain critical human-led functions that AI cannot replace."
+    },
+    "infrastructure as code": {
+      "skill": "infrastructure as code",
+      "tasks": [
+        {
+          "task": "Automating provisioning of cloud and on-premises systems",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate IaC templates and scripts, but human engineers must oversee security configurations, architectural alignment, and complex state management."
+        },
+        {
+          "task": "Designing, deploying, and maintaining CI/CD pipelines",
+          "classification": "AI-augmented",
+          "reason": "AI excels at identifying inefficiencies and suggesting syntax improvements for pipelines, but the logic integration and workflow orchestration require deep context of organizational risk and compliance."
+        },
+        {
+          "task": "Networking, firewalls, and security configuration",
+          "classification": "AI-complementary",
+          "reason": "Designing secure network topologies and compliant security postures requires domain-specific business judgment and high-level architectural decision-making that AI cannot reliably perform autonomously."
+        },
+        {
+          "task": "Troubleshooting infrastructure and system issues",
+          "classification": "AI-augmented",
+          "reason": "AI is highly effective at log analysis and pattern recognition for root cause identification, but the final remediation and verification in mission-critical environments require human accountability."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Infrastructure as Code (IaC) is highly susceptible to AI assistance due to its declarative, code-based nature, which aligns perfectly with Large Language Model capabilities in code generation and pattern matching. While AI can significantly speed up the authoring of scripts and troubleshooting of infrastructure, it remains 'augmented' rather than 'substitutable' because infrastructure decisions involve high-stakes requirements regarding security, cost-optimization, and organizational compliance that require human oversight and architectural context."
+    },
+    "owasp": {
+      "skill": "owasp",
+      "tasks": [
+        {
+          "task": "Vulnerability scanning and static analysis (SAST)",
+          "classification": "AI-substitutable",
+          "reason": "AI-driven tools are already highly proficient at scanning codebases against OWASP standards, identifying known patterns, and flagging common vulnerabilities automatically."
+        },
+        {
+          "task": "Vulnerability triage and remediation planning",
+          "classification": "AI-augmented",
+          "reason": "While AI can categorize and suggest patches for vulnerabilities, human expertise is required to assess business context, risk appetite, and the impact of remediation on live systems."
+        },
+        {
+          "task": "Security policy definition and risk compliance alignment",
+          "classification": "AI-complementary",
+          "reason": "Defining how OWASP guidelines integrate with corporate strategy, regulatory requirements, and cross-functional business objectives relies on human leadership and nuanced organizational judgment."
+        },
+        {
+          "task": "Web application penetration testing and manual code review",
+          "classification": "AI-augmented",
+          "reason": "AI can assist by automating routine checks and finding 'low-hanging fruit,' but sophisticated manual penetration testing requires creative problem-solving and deep domain expertise that AI cannot currently replicate."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "OWASP-related work is shifting from manual identification toward intelligent automation. While AI can efficiently handle the detection of known vulnerability patterns and standardized compliance reporting, the roles described in the postings—which involve cross-functional collaboration, risk assessment, and strategic remediation—remain heavily dependent on human expertise for final decision-making and business alignment."
+    },
+    "test-driven development": {
+      "skill": "test-driven development",
+      "tasks": [
+        {
+          "task": "Writing unit and integration tests to ensure code quality",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating boilerplate unit tests, mock objects, and test suites based on function signatures and logic requirements."
+        },
+        {
+          "task": "Designing testable software architecture",
+          "classification": "AI-augmented",
+          "reason": "While AI can suggest patterns, human architects must make complex design decisions regarding system modularity and dependency injection to ensure long-term maintainability."
+        },
+        {
+          "task": "Translating business requirements into test scenarios",
+          "classification": "AI-augmented",
+          "reason": "AI can draft initial test cases, but human judgment is required to verify that scenarios cover edge cases and align with evolving user intent and business goals."
+        },
+        {
+          "task": "Continuous improvement of TDD/BDD practices and workflows",
+          "classification": "AI-complementary",
+          "reason": "Adapting development methodologies to specific team dynamics, culture, and project constraints requires human leadership, consensus-building, and organizational context."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.7,
+      "summary": "Test-driven development is highly susceptible to AI automation, as the core process of writing tests before or alongside code is a structured, rule-based activity that LLMs handle efficiently. While AI can significantly accelerate test creation and automation, human expertise is still essential for defining high-level testing strategies, managing the architectural design that makes testing possible, and navigating the interpersonal collaboration required in Agile/Scrum teams."
+    },
+    "etl": {
+      "skill": "etl",
+      "tasks": [
+        {
+          "task": "Developing and maintaining automated data pipelines for data movement and transformation",
+          "classification": "AI-augmented",
+          "reason": "While AI can generate boilerplate transformation code and optimize workflow scheduling, human oversight is required for architectural design, schema mapping, and ensuring data integrity across complex upstream sources."
+        },
+        {
+          "task": "Troubleshooting data pipeline performance and resolving data-related defects",
+          "classification": "AI-augmented",
+          "reason": "AI tools excel at anomaly detection and identifying root causes in logs, but resolving architectural bottlenecks and validating business logic errors still requires human domain expertise."
+        },
+        {
+          "task": "Data modeling and schema design for warehousing and analytics",
+          "classification": "AI-complementary",
+          "reason": "Defining data structures requires a deep understanding of business context, stakeholder requirements, and long-term organizational data strategy which exceeds current generative capabilities."
+        },
+        {
+          "task": "Executing manual data mapping and routine file conversion (e.g., legacy integrations)",
+          "classification": "AI-substitutable",
+          "reason": "Standardized data formatting and routine mapping tasks can be largely automated using LLMs and intelligent data mapping tools with minimal human intervention."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.7,
+      "summary": "ETL work is highly exposed to AI as code generation, schema inference, and automated pipeline monitoring become standard. While basic coding and mapping are increasingly substitutable, the architectural design, security compliance, and context-heavy business integration required by roles like those at Honeywell or Amazon remain firmly human-in-the-loop, making this an augmented profession."
+    },
+    "linux": {
+      "skill": "linux",
+      "tasks": [
+        {
+          "task": "Operating system administration and configuration",
+          "classification": "AI-augmented",
+          "reason": "While AI can generate configuration scripts and troubleshoot known errors, infrastructure-specific context, security compliance, and system-wide architectural decisions require human oversight."
+        },
+        {
+          "task": "Scripting and automation (shell, bash, python)",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at writing, debugging, and optimizing standard Linux shell scripts for automation tasks, often performing these tasks with minimal human intervention."
+        },
+        {
+          "task": "Environment troubleshooting and diagnostics",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze logs and identify common patterns for issues, but resolving complex system performance bottlenecks and inter-process conflicts requires deep domain expertise and human judgment."
+        },
+        {
+          "task": "Infrastructure deployment and integration (Cloud/Kubernetes/On-prem)",
+          "classification": "AI-complementary",
+          "reason": "High-level architectural design and ensuring secure integration across complex enterprise environments depend on business requirements, team collaboration, and physical/logistical constraints that AI cannot fully manage."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Linux proficiency remains a foundational requirement across diverse roles, from SRE to QA. While AI significantly lowers the barrier for generating scripts and performing common diagnostics (AI-substitutable), the core responsibilities of system reliability, architectural integration, and security-hardened administration require ongoing human verification and domain-specific decision-making (AI-augmented)."
+    },
+    "git": {
+      "skill": "git",
+      "tasks": [
+        {
+          "task": "Version control management and repository synchronization",
+          "classification": "AI-substitutable",
+          "reason": "AI tools can automate routine version control operations, such as branching, merging, and resolving simple merge conflicts, based on established project patterns."
+        },
+        {
+          "task": "Code review and compliance with standards",
+          "classification": "AI-augmented",
+          "reason": "AI can scan code for bugs, security vulnerabilities, and style violations within git commits, but human judgment is required for architectural review and nuanced project-specific decisions."
+        },
+        {
+          "task": "Collaborative workflow coordination",
+          "classification": "AI-complementary",
+          "reason": "Git usage is deeply tied to cross-functional communication and team alignment, which requires human leadership, consensus, and social coordination that AI cannot replace."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.6,
+      "summary": "Git serves as the backbone for collaborative development. While AI is highly effective at automating the mechanical aspects of version control (merging, syntax checking, and commit management), the role remains essential for human oversight, complex conflict resolution in high-stakes environments, and team-based architectural decision-making."
+    },
+    "snowflake": {
+      "skill": "snowflake",
+      "tasks": [
+        {
+          "task": "Data ingestion pipeline development and maintenance",
+          "classification": "AI-augmented",
+          "reason": "AI tools can generate SQL/Python code for ETL/ELT, but architectural design, pipeline reliability, and debugging complex integration issues require human oversight."
+        },
+        {
+          "task": "Database and warehouse data transformation (using tools like dbt)",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in writing transformation logic and optimizing queries, but business logic implementation and data governance require human validation."
+        },
+        {
+          "task": "Query development and performance tuning",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at optimizing SQL syntax and suggesting performance improvements for Snowflake queries, often automating manual tuning."
+        },
+        {
+          "task": "Data architecture, governance, and strategy alignment",
+          "classification": "AI-complementary",
+          "reason": "Aligning data infrastructure with business goals, establishing security frameworks, and leading cross-functional teams requires deep domain context and human leadership."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Snowflake-related work is heavily focused on data engineering and analytics. While the technical execution of coding, query optimization, and basic pipeline construction is highly susceptible to AI augmentation and partial substitution, the roles consistently demand human judgment for business requirements gathering, architecture design, and strategic data governance."
+    },
+    "shell scripting": {
+      "skill": "shell scripting",
+      "tasks": [
+        {
+          "task": "Automating repetitive operational and system administration tasks",
+          "classification": "AI-substitutable",
+          "reason": "Large language models are highly proficient at generating syntactically correct shell scripts for routine tasks like file manipulation, cron job scheduling, and system cleanup."
+        },
+        {
+          "task": "Troubleshooting infrastructure and environment issues",
+          "classification": "AI-augmented",
+          "reason": "While AI can suggest potential root causes and script fixes for known issues, effective resolution often requires deep domain context, understanding of proprietary architecture, and the ability to verify outcomes in live production systems."
+        },
+        {
+          "task": "Integration of software components and infrastructure pipelines",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in writing the 'glue code' for CI/CD pipelines, but human judgment is required to ensure security compliance, architectural integrity, and compatibility across complex hybrid-cloud environments."
+        },
+        {
+          "task": "Testing and validation within specific hardware/thermal test environments",
+          "classification": "AI-complementary",
+          "reason": "When shell scripting is used to interface with physical hardware (e.g., thermal chambers, power supplies), the task relies on physical interaction and context that cannot be fully managed by AI."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "Shell scripting is highly exposed to AI because it involves standard syntax and common logic patterns that LLMs excel at generating. While the creation of scripts is increasingly automatable, the role remains AI-augmented because shell scripting is typically used as a tactical tool to support larger, complex engineering initiatives that require human oversight, security judgment, and system-level context."
+    },
+    "artificial intelligence": {
+      "skill": "artificial intelligence",
+      "tasks": [
+        {
+          "task": "Developing and deploying machine learning models, classifiers, and AI-augmented algorithms",
+          "classification": "AI-augmented",
+          "reason": "While AI tools can generate code or optimize models, human expertise is required to define architectural goals, select training data, and validate results for specific domains."
+        },
+        {
+          "task": "Extracting and standardizing complex data (e.g., OCR for healthcare/EMR records)",
+          "classification": "AI-substitutable",
+          "reason": "Modern OCR and AI pipeline automation can handle massive volumes of variant data with minimal human intervention once the systems are properly configured."
+        },
+        {
+          "task": "System-level architecture design and cross-functional leadership",
+          "classification": "AI-complementary",
+          "reason": "These tasks rely on high-level organizational strategy, inter-team collaboration, and ethical/legal compliance oversight which remain distinctly human domains."
+        },
+        {
+          "task": "Data cleaning and preprocessing for large-scale analytics",
+          "classification": "AI-substitutable",
+          "reason": "Many data pipeline maintenance, normalization, and cleanup tasks are increasingly automated through AI-driven data processing tools."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "The field of AI development is at a high-exposure inflection point. While core engineering and data tasks are increasingly automatable (substitutable), the strategic application, validation, and integration of these systems into sensitive or complex environments (like healthcare, defense, or AR/VR hardware) require significant human judgment and engineering expertise, positioning the overall role as heavily AI-augmented."
+    },
+    "natural language processing": {
+      "skill": "natural language processing",
+      "tasks": [
+        {
+          "task": "Developing and training NLP models (sentiment analysis, NER, text categorization)",
+          "classification": "AI-augmented",
+          "reason": "While AI architectures generate the models, human engineers must design, curate datasets, tune hyperparameters, and validate performance against specific business requirements."
+        },
+        {
+          "task": "Data preprocessing and feature engineering",
+          "classification": "AI-substitutable",
+          "reason": "Many standard cleaning, normalization, and tokenization pipelines are now automated by library functions and auto-ML tools, requiring less manual intervention."
+        },
+        {
+          "task": "Integration of domain-specific logic (e.g., genetic reporting, mental health context)",
+          "classification": "AI-complementary",
+          "reason": "High-stakes tasks like clinical accuracy or ethical mental health support require human clinical domain expertise to verify, interpret, and oversee AI outputs."
+        },
+        {
+          "task": "Code review, debugging, and system architecture design",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest code fixes and optimize workflows, but human judgment is necessary to ensure architectural scalability, security, and reproducibility."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "NLP work involves a high degree of AI exposure because the skill itself is foundational to current AI development. While lower-level tasks like data preprocessing are becoming highly automated (substitutable), the core engineering work—specifically architecting systems for high-stakes environments like healthcare or mental health—remains deeply augmented by human expertise to ensure accuracy, ethics, and alignment with complex business objectives."
+    },
+    "machine learning": {
+      "skill": "machine learning",
+      "tasks": [
+        {
+          "task": "Model prototyping and architectural design",
+          "classification": "AI-augmented",
+          "reason": "AI tools accelerate code generation and architecture selection, but engineers must apply domain expertise to select architectures appropriate for specific business outcomes."
+        },
+        {
+          "task": "Data pipeline construction and feature engineering",
+          "classification": "AI-substitutable",
+          "reason": "Automated machine learning (AutoML) and data engineering agents are increasingly capable of building pipelines and identifying relevant features with minimal human intervention."
+        },
+        {
+          "task": "Model training, optimization, and deployment",
+          "classification": "AI-augmented",
+          "reason": "While optimization (quantization, pruning) can be automated, critical decisions regarding performance vs. hardware limitations and deployment strategies require human oversight."
+        },
+        {
+          "task": "Troubleshooting and performance analysis",
+          "classification": "AI-augmented",
+          "reason": "AI can identify anomalies in performance metrics, but root cause analysis within complex, heterogeneous system architectures requires human contextual judgment."
+        },
+        {
+          "task": "Aligning ML models with clinical/business goals",
+          "classification": "AI-complementary",
+          "reason": "Translating subjective requirements—like healthcare outcomes or behavioral change—into technical specifications requires high-level empathy, leadership, and cross-functional strategy."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "Machine learning engineering is a highly exposed field. While the core technical tasks of training, pipeline development, and optimization are increasingly automated by AI, the role is shifting toward orchestrating these automated systems to meet complex, domain-specific requirements. High-level architectural decision-making, clinical/business alignment, and multi-disciplinary leadership remain strongly human-centric."
+    },
+    "java": {
+      "skill": "java",
+      "tasks": [
+        {
+          "task": "Writing and refactoring boilerplate code and service logic",
+          "classification": "AI-augmented",
+          "reason": "AI tools like Copilot significantly speed up routine coding tasks, but require human architectural oversight, debugging, and integration into specific business contexts."
+        },
+        {
+          "task": "Developing and maintaining automated test suites (JUnit, Mockito)",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly effective at generating unit tests and regression scripts based on existing codebases, reducing the manual burden of test creation."
+        },
+        {
+          "task": "Designing system architecture and microservices interactions",
+          "classification": "AI-complementary",
+          "reason": "Designing complex distributed systems requires deep business domain knowledge, stakeholder management, and high-level judgment that AI cannot fully replicate."
+        },
+        {
+          "task": "Collaborating on cross-functional agile teams (pairing/mobbing)",
+          "classification": "AI-complementary",
+          "reason": "Interpersonal dynamics, consensus building, and understanding organizational constraints are uniquely human capabilities."
+        },
+        {
+          "task": "Troubleshooting complex production systems and build issues",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze logs and identify patterns quickly, but resolving systemic issues often requires deep environmental knowledge and multi-layered debugging."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Java development is highly exposed to AI due to the structured nature of the language, which is ideal for AI-assisted code generation and automated testing. However, the role is shielded from full substitution by the necessity for architectural decision-making, integration with complex legacy/hybrid environments, and the human-centric collaboration required in agile enterprise settings."
+    },
+    "microsoft azure": {
+      "skill": "microsoft azure",
+      "tasks": [
+        {
+          "task": "Data infrastructure management and pipeline development",
+          "classification": "AI-augmented",
+          "reason": "AI tools can generate boilerplate infrastructure-as-code and optimize data pipelines, but architectural decisions and complex data integration requirements necessitate human oversight."
+        },
+        {
+          "task": "Cloud provisioning and automation of system resources",
+          "classification": "AI-substitutable",
+          "reason": "Routine tasks like provisioning VMs, storage, and container environments are increasingly automated by AI-driven scripts, templates, and self-healing cloud management platforms."
+        },
+        {
+          "task": "Security assessment, vulnerability management, and compliance",
+          "classification": "AI-augmented",
+          "reason": "AI excels at identifying threat patterns and vulnerability scanning, but the interpretation of security posture and policy-driven decision-making requires human domain expertise."
+        },
+        {
+          "task": "Collaborative solution design and stakeholder communication",
+          "classification": "AI-complementary",
+          "reason": "Aligning technical solutions with business requirements, mentoring team members, and driving cross-functional collaboration remain fundamentally human-centric activities."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Microsoft Azure roles are highly susceptible to automation regarding routine provisioning and monitoring (AI-substitutable), but remain heavily reliant on human expertise for system architecture, strategic security judgments, and business alignment. As cloud environments grow more complex, AI serves as a powerful accelerator for engineers managing these platforms."
+    },
+    "github": {
+      "skill": "github",
+      "tasks": [
+        {
+          "task": "Version control and code repository management",
+          "classification": "AI-augmented",
+          "reason": "While AI can automate pull request summaries and basic conflict resolution, managing complex branch strategies, code reviews, and dependency integration remains a human-led workflow."
+        },
+        {
+          "task": "CI/CD pipeline integration and automation",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in writing configuration files (YAML) for pipelines, but orchestrating the deployment of mission-critical systems requires human verification and architectural context."
+        },
+        {
+          "task": "Collaborative software development and code sharing",
+          "classification": "AI-complementary",
+          "reason": "The collaborative aspect—resolving architectural disputes, peer reviewing complex logic, and coordinating across cross-functional teams—relies on human consensus and business context."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.4,
+      "summary": "GitHub serves as the foundational collaborative environment for software engineering. While AI-driven coding assistants and automated repository management tools are becoming integrated into the platform, the core tasks of managing complex project lifecycles, ensuring security compliance, and aligning technical output with business goals remain heavily reliant on human expertise and judgment."
+    },
+    "r": {
+      "skill": "r",
+      "tasks": [
+        {
+          "task": "Developing and evaluating predictive models and algorithms",
+          "classification": "AI-augmented",
+          "reason": "AI tools accelerate model generation, but human data scientists are required for selecting appropriate algorithms, validating results, and ensuring business alignment."
+        },
+        {
+          "task": "Exploratory data analysis and pattern recognition",
+          "classification": "AI-substitutable",
+          "reason": "Automated data profiling and machine learning-driven pattern discovery can perform these routine analytical tasks with minimal human intervention."
+        },
+        {
+          "task": "Data storytelling and presenting findings to stakeholders",
+          "classification": "AI-complementary",
+          "reason": "Interpreting complex outputs into business strategy requires human emotional intelligence, cross-functional collaboration, and domain-specific context."
+        },
+        {
+          "task": "Coding and software implementation",
+          "classification": "AI-augmented",
+          "reason": "Generative AI can write, debug, and optimize R scripts, but humans are responsible for system integration, architectural decisions, and security compliance."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "The use of 'R' is heavily tied to data science and statistical modeling workflows, which are primary targets for AI automation. While AI can automate the technical aspects of scripting and statistical analysis, the role remains 'AI-augmented' because senior-level practitioners must provide the contextual judgment, rigorous validation, and strategic decision-making required to turn models into actionable business value."
+    },
+    "prototyping": {
+      "skill": "prototyping",
+      "tasks": [
+        {
+          "task": "Rapid iterative development and technical design of features/models",
+          "classification": "AI-augmented",
+          "reason": "AI tools like generative coding assistants can accelerate the creation of code snippets and design scaffolds, but human engineers must oversee implementation and architectural logic."
+        },
+        {
+          "task": "Simulation and experimentation for operational analysis",
+          "classification": "AI-augmented",
+          "reason": "AI can run complex scenario models and data simulations, but humans must define the parameters, interpret results, and decide on real-world applications."
+        },
+        {
+          "task": "User-centric feature design and workflow mapping",
+          "classification": "AI-complementary",
+          "reason": "Designing prototypes based on user empathy (the 'pinner hat') and internal business context requires human judgment, stakeholder collaboration, and strategic intuition."
+        },
+        {
+          "task": "Testing and validation of prototypes",
+          "classification": "AI-substitutable",
+          "reason": "Automated testing and performance benchmarking of prototypes are increasingly handled by AI-driven QA suites that can detect errors more efficiently than manual processes."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Prototyping is shifting from a manual code-heavy process to an AI-assisted design process. While AI significantly lowers the barrier to entry by generating initial scaffolds and handling automated testing, the core responsibilities—such as aligning prototypes with strategic business goals, complex systems integration, and human-centric design—remain deeply tied to human expertise and judgment."
+    },
+    "c": {
+      "skill": "c",
+      "tasks": [
+        {
+          "task": "Developing and optimizing large-scale systems and backend architectures",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate or optimize code segments, but architectural decisions and system-wide performance tuning require complex human engineering judgment."
+        },
+        {
+          "task": "Solving complex data structures and algorithmic problems",
+          "classification": "AI-substitutable",
+          "reason": "AI models excel at identifying optimal algorithmic patterns and solving standard data structure challenges found in typical coding assessments."
+        },
+        {
+          "task": "Conducting static and dynamic code analysis for security",
+          "classification": "AI-augmented",
+          "reason": "AI tools are highly effective at finding common vulnerabilities, but human expertise is essential for verifying findings and implementing context-aware security protocols."
+        },
+        {
+          "task": "Collaborating with cross-functional teams and stakeholders",
+          "classification": "AI-complementary",
+          "reason": "Effective team communication, project management, and aligning technical solutions with business goals are human-centric activities that AI cannot replace."
+        },
+        {
+          "task": "Debugging, refactoring, and maintaining existing codebases",
+          "classification": "AI-augmented",
+          "reason": "AI significantly assists in identifying bugs and suggesting refactors, though the final implementation and validation require human oversight."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "The C programming skill is highly exposed to AI as code generation, optimization, and bug detection become increasingly automated. However, the role of a C engineer in the provided job evidence involves system-level architecture, complex cross-functional collaboration, and domain-specific security integration, which require significant human judgment and oversight."
+    },
+    "microservices": {
+      "skill": "microservices",
+      "tasks": [
+        {
+          "task": "Writing and implementing boilerplate code for microservices",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating standard service skeletons, API endpoints, and boilerplate implementation code from specifications."
+        },
+        {
+          "task": "Designing system architecture and inter-service communication patterns",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest architectural patterns and identify potential bottlenecks, but humans must make the final design decisions based on business logic and trade-offs."
+        },
+        {
+          "task": "Troubleshooting, debugging, and resolving complex distributed system issues",
+          "classification": "AI-augmented",
+          "reason": "AI tools can analyze logs and stack traces to pinpoint errors, but human expertise is required to understand the context of distributed failures and system interdependencies."
+        },
+        {
+          "task": "Collaborating across teams to ensure scalability, data integrity, and project alignment",
+          "classification": "AI-complementary",
+          "reason": "These tasks rely on cross-functional communication, negotiation, and alignment with business strategy, which are intrinsically human activities."
+        },
+        {
+          "task": "Managing and maintaining infrastructure-as-code and CI/CD pipelines",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest deployment configurations and pipeline optimizations, but human oversight is necessary for security governance and production-level infrastructure reliability."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Microservices development is highly susceptible to AI augmentation. While AI can significantly accelerate coding, testing, and error identification within the microservices lifecycle, the high-level tasks involving architectural integrity, complex system troubleshooting, and cross-team alignment remain deeply dependent on human judgment and domain expertise."
+    },
+    "pandas": {
+      "skill": "pandas",
+      "tasks": [
+        {
+          "task": "Data cleaning, organization, and validation of large datasets",
+          "classification": "AI-augmented",
+          "reason": "AI models excel at identifying patterns and automating routine cleaning tasks, but human judgment is required to validate data integrity and handle context-specific anomalies."
+        },
+        {
+          "task": "Development of data manipulation and transformation logic for pipelines",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate transformation code and optimize existing scripts, but engineers must define the architectural logic and ensure integration with broader systems."
+        },
+        {
+          "task": "Ad-hoc data research and feature identification",
+          "classification": "AI-augmented",
+          "reason": "AI can rapidly query and summarize data to suggest features, but human domain expertise is critical to determine which insights are strategically relevant to the business."
+        },
+        {
+          "task": "Standardizing ingestion methodologies and documentation",
+          "classification": "AI-complementary",
+          "reason": "Establishing organizational standards and documenting architectural decisions requires high-level human communication, collaboration with stakeholders, and long-term strategic alignment."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.75,
+      "summary": "Pandas is highly exposed to AI because much of its usage involves repetitive, scriptable data manipulation tasks that LLMs and automated data tools can perform efficiently. While the technical execution of pandas operations is increasingly automated (AI-augmented), the roles analyzed require significant human intervention in architectural design, business-context decision-making, and cross-functional collaboration, preventing full substitution."
+    },
+    "numpy": {
+      "skill": "numpy",
+      "tasks": [
+        {
+          "task": "Data manipulation and numerical analysis",
+          "classification": "AI-augmented",
+          "reason": "While AI can generate code for data manipulation, the human context, cleaning of messy real-world datasets, and validation of numerical results remain critical."
+        },
+        {
+          "task": "Implementation of machine learning and statistical models",
+          "classification": "AI-augmented",
+          "reason": "AI tools accelerate the coding of algorithms (e.g., NumPy-based vectorization), but the architectural design, feature selection, and model tuning require human domain expertise."
+        },
+        {
+          "task": "Integration of data models into lending/financial platforms",
+          "classification": "AI-complementary",
+          "reason": "This requires stakeholder alignment, risk assessment, and business logic that AI cannot fully substitute, relying on human judgment to translate complex data into business decisions."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Numpy is a foundational library for technical computing. Its use in the provided job postings (data science and credit risk modeling) falls into a high-exposure category where AI can significantly speed up the writing, debugging, and optimization of numerical code. However, the tasks it supports—such as risk management and system architecture—require high-level domain judgment and strategic decision-making that keep the human role essential."
+    },
+    "matplotlib": {
+      "skill": "matplotlib",
+      "tasks": [
+        {
+          "task": "Generating static and interactive data visualizations",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at writing code to render charts and graphs from datasets based on natural language prompts."
+        },
+        {
+          "task": "Exploratory Data Analysis (EDA) and pattern identification",
+          "classification": "AI-augmented",
+          "reason": "While AI can generate visual plots, humans must interpret these patterns within specific business contexts to derive actionable insights."
+        },
+        {
+          "task": "Communicating complex data insights to stakeholders",
+          "classification": "AI-complementary",
+          "reason": "Data storytelling requires domain expertise, empathy, and professional judgment to align visual findings with organizational goals and stakeholder needs."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.7,
+      "summary": "Matplotlib as a tool is highly exposed to AI because the generation of code for standard visualization is easily automated. However, the role of a data professional utilizing Matplotlib remains augmented or complementary, as the value lies not in the code generation itself, but in the contextual analysis and the communication of insights to solve specific business problems."
+    },
+    "databricks": {
+      "skill": "databricks",
+      "tasks": [
+        {
+          "task": "Data pipeline development and orchestration (ETL/ELT)",
+          "classification": "AI-augmented",
+          "reason": "AI excels at generating boilerplate transformation code, but architecture design, schema handling, and dependency management require human validation for complex enterprise systems."
+        },
+        {
+          "task": "Performance tuning and optimization of data workflows",
+          "classification": "AI-augmented",
+          "reason": "AI tools can identify bottlenecks and suggest configuration improvements, but human domain experts must weigh trade-offs between cost, latency, and resource allocation."
+        },
+        {
+          "task": "Data platform architecture and design",
+          "classification": "AI-complementary",
+          "reason": "Designing scalable, high-level architectures (e.g., Medallion architecture) requires deep business context, long-term strategic planning, and understanding organizational compliance that AI currently lacks."
+        },
+        {
+          "task": "Metadata management and documentation",
+          "classification": "AI-substitutable",
+          "reason": "AI is highly effective at automating the generation of data lineage, table descriptions, and documentation from existing codebases, reducing manual overhead."
+        },
+        {
+          "task": "Technical mentorship and cross-functional leadership",
+          "classification": "AI-complementary",
+          "reason": "Facilitating technical discussions, mentoring junior staff, and driving consensus across diverse functional teams rely on human soft skills and leadership."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Databricks workflows are increasingly becoming AI-assisted; while repetitive coding and documentation tasks are highly susceptible to automation, the core functions of platform architecture, security governance, and technical leadership remain human-centric."
+    },
+    "jira": {
+      "skill": "jira",
+      "tasks": [
+        {
+          "task": "Managing agile sprints, epics, and board workflows",
+          "classification": "AI-augmented",
+          "reason": "AI can automate ticket creation, suggest sprint velocity, and optimize resource allocation, but the actual prioritization and negotiation of scope remain human-driven tasks."
+        },
+        {
+          "task": "Documenting user stories and acceptance criteria",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating structured requirements, user stories, and test criteria based on high-level business input and historical data."
+        },
+        {
+          "task": "Tracking progress and reporting on product delivery metrics",
+          "classification": "AI-substitutable",
+          "reason": "Reporting and status visualization are data-driven tasks that AI can perform autonomously by analyzing the movement of tickets across board statuses."
+        },
+        {
+          "task": "Cross-functional team coordination and project alignment",
+          "classification": "AI-complementary",
+          "reason": "This requires social intelligence, conflict resolution, and understanding organizational context, which remain inherently human responsibilities."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Jira is a platform for project tracking and workflow management. While AI is highly effective at automating the administrative and documentation aspects (ticket management, status updates, and metric reporting), the strategic oversight, team alignment, and nuanced decision-making regarding agile processes remain human-centric."
+    },
+    "docker": {
+      "skill": "docker",
+      "tasks": [
+        {
+          "task": "Containerizing applications and defining Dockerfiles",
+          "classification": "AI-augmented",
+          "reason": "AI can generate standard boilerplate Dockerfiles and optimize layer caching, but human validation is required to ensure security patches, dependency integrity, and runtime configuration correctness."
+        },
+        {
+          "task": "Managing container orchestration (Kubernetes, Docker Swarm, OpenShift)",
+          "classification": "AI-augmented",
+          "reason": "AI can assist in writing complex YAML manifests and troubleshooting deployment errors, but architectural decision-making, cluster security, and high-level orchestration strategy require human oversight."
+        },
+        {
+          "task": "Integrating containerization into CI/CD pipelines",
+          "classification": "AI-augmented",
+          "reason": "AI excels at drafting pipeline automation scripts and integration logic, but human expertise is necessary to define governance, security policies, and end-to-end reliability requirements."
+        },
+        {
+          "task": "Troubleshooting and debugging containerized environments",
+          "classification": "AI-complementary",
+          "reason": "While AI can suggest potential root causes based on logs, the actual resolution often involves complex system-level debugging, understanding cross-platform dependencies, and high-stakes production intervention."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Docker usage is highly susceptible to AI augmentation because it is configuration-heavy and rule-based. AI can significantly accelerate the authoring of configuration files and pipeline scripts. However, it remains AI-augmented rather than substitutable because container management involves deep system-level context, security governance, and architectural judgment that currently requires human verification."
+    },
+    "kubernetes": {
+      "skill": "kubernetes",
+      "tasks": [
+        {
+          "task": "Cluster deployment and configuration (EKS, AKS, GKE)",
+          "classification": "AI-substitutable",
+          "reason": "Infrastructure-as-Code (IaC) and AI-driven provisioning tools can automate the setup and configuration of Kubernetes environments with minimal human intervention."
+        },
+        {
+          "task": "Troubleshooting and runtime parameter tuning",
+          "classification": "AI-augmented",
+          "reason": "AI tools can analyze logs and metrics to suggest fixes, but human judgment is often required to verify changes in complex, production-critical environments."
+        },
+        {
+          "task": "Designing secure, scalable microservices architectures",
+          "classification": "AI-complementary",
+          "reason": "High-level architectural decisions, alignment with specific business domain needs, and security strategy require deep context and professional judgment that AI cannot currently replace."
+        },
+        {
+          "task": "Operational monitoring and incident response",
+          "classification": "AI-augmented",
+          "reason": "AI can perform real-time pattern recognition and automated remediation for known issues, but engineers must oversee incident management and complex forensic analysis."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Kubernetes management is trending toward higher AI exposure as cloud providers integrate 'self-healing' and automated orchestration capabilities. While routine deployment and standard troubleshooting are becoming AI-substitutable, the role remains AI-augmented because designing, securing, and leading complex, large-scale systems requires human context, domain-specific architectural strategy, and accountability for production stability."
+    },
+    "windows": {
+      "skill": "windows",
+      "tasks": [
+        {
+          "task": "Operating within Windows/Unix environments for QA testing",
+          "classification": "AI-augmented",
+          "reason": "AI can automate environment configuration and script execution, but human QA engineers must verify environment-specific edge cases and application behavior."
+        },
+        {
+          "task": "System administration and configuration within OS environments",
+          "classification": "AI-substitutable",
+          "reason": "Configuration management, patching, and routine OS-level deployments are increasingly handled by Infrastructure-as-Code (IaC) and AI-driven automation tools."
+        },
+        {
+          "task": "Troubleshooting and debugging OS-level application issues",
+          "classification": "AI-augmented",
+          "reason": "AI excels at log analysis and identifying known error patterns within Windows logs, but complex system architecture faults still require human diagnosis."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "The 'Windows' skill in a professional context is shifting from manual configuration to environment-agnostic automation. While AI is highly capable of managing routine tasks, patching, and monitoring within Windows environments, it serves as a powerful assistant for developers and engineers, augmenting their ability to debug and maintain complex systems without fully replacing the need for OS-level domain expertise."
+    },
+    "apache": {
+      "skill": "apache",
+      "tasks": [
+        {
+          "task": "Web server configuration and management",
+          "classification": "AI-augmented",
+          "reason": "AI can generate configuration files and identify syntax errors, but human expertise is required for secure implementation, performance tuning, and architectural integration."
+        },
+        {
+          "task": "Troubleshooting server performance and connectivity issues",
+          "classification": "AI-augmented",
+          "reason": "AI tools excel at log analysis and pattern recognition to identify bottlenecks, but human judgment is necessary for root cause analysis and context-aware resolution in complex environments."
+        },
+        {
+          "task": "Security hardening and vulnerability mitigation",
+          "classification": "AI-complementary",
+          "reason": "While AI can scan for known vulnerabilities, the responsibility for compliance, security policy enforcement, and complex system hardening remains a critical human-led domain."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "The skill of Apache server management is increasingly augmented by AI, which can automate routine configuration, log monitoring, and basic security patching. However, the skill remains vital as it is deeply embedded in infrastructure architecture, requiring human oversight for performance optimization, inter-system integration, and specialized security requirements."
+    },
+    "unit testing": {
+      "skill": "unit testing",
+      "tasks": [
+        {
+          "task": "Generating boilerplate test scripts and functional test cases",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at analyzing code structure and autogenerating standard unit test suites based on function signatures and logic."
+        },
+        {
+          "task": "Refining test coverage, edge-case identification, and debugging failures",
+          "classification": "AI-augmented",
+          "reason": "AI can suggest additional test scenarios or identify why a test failed, but human developers must exercise judgment to ensure the tests accurately reflect complex business requirements and domain constraints."
+        },
+        {
+          "task": "Aligning unit tests with architecture, security standards (e.g., MISRA, UL), and high-level design strategies",
+          "classification": "AI-complementary",
+          "reason": "Ensuring tests meet specific safety, compliance, and architectural goals requires human leadership, deep domain context, and collaborative decision-making that AI cannot perform autonomously."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Unit testing is increasingly susceptible to AI automation, as modern LLMs can generate and maintain test code with high accuracy. While the routine generation of tests is highly substitutable, the role remains AI-augmented because engineers must still design the testing strategy, validate AI-generated tests against complex safety-critical or business requirements, and integrate these tests into broader CI/CD pipelines."
+    },
+    "statistics": {
+      "skill": "statistics",
+      "tasks": [
+        {
+          "task": "Data modeling and identifying patterns/trends in large datasets",
+          "classification": "AI-augmented",
+          "reason": "AI excels at rapid pattern recognition in large datasets, but human statisticians are required to select appropriate models, validate assumptions, and interpret findings within a business context."
+        },
+        {
+          "task": "Applying statistical techniques to drive decision-making",
+          "classification": "AI-augmented",
+          "reason": "While AI can perform the mathematical calculations and execute complex statistical tests, the framing of the business problem and the high-level strategic application of results require human judgment."
+        },
+        {
+          "task": "Data cleansing, transformation, and preparation for analysis",
+          "classification": "AI-substitutable",
+          "reason": "Modern AI and machine learning tools are increasingly adept at automating data cleaning, normalization, and structural transformation tasks that were previously manual and time-consuming."
+        },
+        {
+          "task": "Communicating complex insights to stakeholders",
+          "classification": "AI-complementary",
+          "reason": "Effective communication requires emotional intelligence, organizational context, and the ability to persuade stakeholders, which remain uniquely human responsibilities."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Statistics remains a vital career skill, but its application is shifting. The technical components of data preparation and model execution are increasingly automated or augmented by AI. However, the role is highly resilient because AI lacks the contextual nuance, strategic decision-making ability, and communication skills required to turn statistical outputs into actionable organizational outcomes."
+    },
+    "data visualization": {
+      "skill": "data visualization",
+      "tasks": [
+        {
+          "task": "Generating charts, dashboards, and visual reports from structured data",
+          "classification": "AI-substitutable",
+          "reason": "AI tools can automatically map data to optimal visual formats, generate dashboards, and apply best-practice design principles with minimal human intervention."
+        },
+        {
+          "task": "Distilling complex data into storylines and actionable insights for stakeholders",
+          "classification": "AI-augmented",
+          "reason": "AI can identify patterns and generate initial narrative summaries, but human judgment is required to tailor the message to specific stakeholder needs, organizational culture, and strategic context."
+        },
+        {
+          "task": "Communicating insights and influencing teams to act on recommendations",
+          "classification": "AI-complementary",
+          "reason": "Effective communication involves soft skills, leadership, persuasion, and deep domain context that AI cannot authentically replicate or execute in a high-stakes business environment."
+        },
+        {
+          "task": "Designing data-driven frameworks and ensuring metric definitions align with business goals",
+          "classification": "AI-complementary",
+          "reason": "Establishing the governance, metric definitions, and conceptual frameworks requires a deep understanding of organizational mission, data validity, and cross-functional objectives."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Data visualization is increasingly automated through 'AutoML' and BI tools that suggest or build visualizations automatically. While the technical creation of charts is highly substitutable, the value of the skill has shifted toward the human role of contextualizing these visualizations to drive organizational change, bridge gaps between technical and non-technical stakeholders, and ensure data integrity."
+    },
+    "waterfall": {
+      "skill": "waterfall",
+      "tasks": [
+        {
+          "task": "Project planning and scheduling",
+          "classification": "AI-augmented",
+          "reason": "AI can generate baseline project timelines, dependencies, and resource allocations, but human managers must calibrate these against stakeholder constraints and organizational risk."
+        },
+        {
+          "task": "Documentation of requirements and specifications",
+          "classification": "AI-substitutable",
+          "reason": "AI is highly effective at structuring, formatting, and generating standardized documentation from technical inputs and templates used in rigid waterfall methodologies."
+        },
+        {
+          "task": "Process governance and adherence",
+          "classification": "AI-augmented",
+          "reason": "AI can track compliance with defined lifecycle stages (SDLC) and flag deviations, though human oversight is required for navigating institutional policy and exceptions."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "Waterfall is a structured, linear methodology characterized by rigid documentation and sequential phases. Because this process is predictable and rule-bound, AI is well-suited to automate the administrative overhead, documentation, and progress tracking associated with it. However, the high-level decision-making regarding architecture and business alignment remains a human-centric responsibility."
+    },
+    "rest api": {
+      "skill": "rest api",
+      "tasks": [
+        {
+          "task": "Integration development and connectivity",
+          "classification": "AI-augmented",
+          "reason": "AI can generate boilerplate code for API endpoints and integration patterns, but human developers must handle complex security, error handling, and business logic mapping."
+        },
+        {
+          "task": "Performance optimization and monitoring",
+          "classification": "AI-augmented",
+          "reason": "AI tools excel at analyzing logs and identifying performance bottlenecks in API throughput, though architectural changes require human expertise."
+        },
+        {
+          "task": "System design and technical architecture",
+          "classification": "AI-complementary",
+          "reason": "Designing scalable, secure, and maintainable API systems across complex enterprise environments depends on human judgment, domain context, and stakeholder requirements."
+        },
+        {
+          "task": "API documentation and standardization",
+          "classification": "AI-substitutable",
+          "reason": "Modern AI models can automatically generate documentation (OpenAPI specs) and standardized code libraries from existing definitions with minimal human intervention."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "REST API development is increasingly AI-augmented. While generative AI can significantly accelerate routine tasks like boilerplate code generation, documentation, and basic integration testing, the roles provided (e.g., Oracle EBS integration, banking data engineering, claims modernization) highlight that high-stakes system design, security compliance, and architectural decision-making remain inherently human-led."
+    },
+    "asp.net": {
+      "skill": "asp.net",
+      "tasks": [
+        {
+          "task": "Boilerplate code generation for APIs, controllers, and models",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating standard ASP.NET MVC/Web API structures, CRUD operations, and Entity Framework configurations from schemas."
+        },
+        {
+          "task": "Refactoring monolithic codebases to microservices",
+          "classification": "AI-augmented",
+          "reason": "While AI can suggest modularization patterns and identify dependencies, the architectural decisions, risk management regarding legacy data integrity, and compliance requirements require human oversight."
+        },
+        {
+          "task": "Unit and functional testing within automated environments",
+          "classification": "AI-substitutable",
+          "reason": "AI tools excel at generating unit tests, mocking dependencies, and identifying edge cases in C# code, significantly reducing the manual burden of test creation."
+        },
+        {
+          "task": "System design and technical specification development",
+          "classification": "AI-complementary",
+          "reason": "High-level design, requirement gathering from non-technical stakeholders, and strategic alignment with business goals (like SOX compliance) require deep domain context and human judgment."
+        },
+        {
+          "task": "Troubleshooting production issues in large-scale cloud environments",
+          "classification": "AI-augmented",
+          "reason": "AI can analyze logs and correlate events to suggest root causes, but the remediation and deep investigation of complex, mission-critical infrastructure issues remain a human-led responsibility."
+        }
+      ],
+      "overall_classification": "AI-augmented",
+      "ai_exposure_score": 0.65,
+      "summary": "ASP.NET development is significantly augmented by AI, particularly in the tactical aspects of coding, testing, and boilerplate generation. However, the high-level professional requirements identified in the job postings—such as architectural migration, complex production troubleshooting, and stakeholder-facing system design—ensure that senior developers remain critical for decision-making and project ownership."
+    },
+    "jquery": {
+      "skill": "jquery",
+      "tasks": [
+        {
+          "task": "Frontend web development and DOM manipulation",
+          "classification": "AI-substitutable",
+          "reason": "AI models are highly proficient at generating, refactoring, and debugging jQuery code for standard DOM manipulation and event handling."
+        },
+        {
+          "task": "Integration with REST APIs and AJAX features",
+          "classification": "AI-substitutable",
+          "reason": "Asynchronous data fetching and API integration code patterns are well-documented and easily automated by AI assistants."
+        },
+        {
+          "task": "Maintaining legacy codebase and cross-browser compatibility",
+          "classification": "AI-augmented",
+          "reason": "While AI can suggest fixes, human judgment is required to navigate complex, potentially undocumented legacy systems and ensure specific business-logic alignment."
+        },
+        {
+          "task": "Collaborative UI implementation within design frameworks",
+          "classification": "AI-complementary",
+          "reason": "Aligning technical implementation with specific team design visions and product-owner requirements involves communication and context that AI cannot fully replicate."
+        }
+      ],
+      "overall_classification": "AI-substitutable",
+      "ai_exposure_score": 0.85,
+      "summary": "jQuery is a mature, well-documented JavaScript library. Because its syntax is standardized and predictable, AI tools are extremely effective at writing, maintaining, and converting jQuery code. As modern development shifts toward frameworks like React (also mentioned in the job postings), the tasks involving jQuery are increasingly performed or automated by AI, leaving humans to focus on higher-level architecture and cross-team integration."
+    }
+  },
+  "errors": {}
+}
