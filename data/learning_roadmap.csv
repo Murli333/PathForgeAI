@@ -1,0 +1,56 @@
+priority,skill,learning_phase,requirement_level,skill_demand_pct,role_priority_score,task_based_score,exposure_status
+1,etl,Phase 1 - Core Skills,Core,53.57142857142857,0.38805976110594226,0.6,Available - preliminary
+2,communication,Phase 2 - Important Skills,Common,39.285714285714285,0.6723544973544973,0.36,Available - preliminary
+3,agile,Phase 2 - Important Skills,Common,25.0,0.45284027366620616,0.4,Available - preliminary
+4,collaboration,Phase 2 - Important Skills,Common,25.0,0.42236530491415036,0.39999999999999997,Available - preliminary
+5,leadership,Phase 2 - Important Skills,Common,25.0,0.40036017367278465,,Pending analysis
+6,snowflake,Phase 2 - Important Skills,Common,39.285714285714285,0.2745418534494911,0.6000000000000001,Available - preliminary
+7,data warehousing,Phase 2 - Important Skills,Common,35.714285714285715,0.24563609536966552,0.6799999999999999,Available - preliminary
+8,databricks,Phase 2 - Important Skills,Common,28.57142857142857,0.2153753982350785,0.52,Available - preliminary
+9,data pipelines,Phase 2 - Important Skills,Common,25.0,0.2148986908756003,,Pending analysis
+10,go,Phase 3 - Supporting Skills,Supporting,10.714285714285714,0.24219717687746106,,Pending analysis
+11,oracle,Phase 3 - Supporting Skills,Supporting,10.714285714285714,0.18054662757149437,,Pending analysis
+12,power bi,Phase 3 - Supporting Skills,Supporting,17.857142857142858,0.17843445450017387,,Pending analysis
+13,mentoring,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.16803123854633623,0.39999999999999997,Available - preliminary
+14,kafka,Phase 3 - Supporting Skills,Supporting,10.714285714285714,0.15553182591370868,0.49999999999999994,Available - preliminary
+15,data visualization,Phase 3 - Supporting Skills,Supporting,14.285714285714285,0.15327187121148045,0.5,Available - preliminary
+16,powershell,Phase 3 - Supporting Skills,Supporting,10.714285714285714,0.14156563947860573,,Pending analysis
+17,apache,Phase 3 - Supporting Skills,Supporting,14.285714285714285,0.1343323277603917,0.4666666666666666,Available - preliminary
+18,css,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.13011596981401596,0.6000000000000001,Available - preliminary
+19,mysql,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.10877855780164838,0.7000000000000001,Available - preliminary
+20,encryption,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.1041341265142331,0.4666666666666666,Available - preliminary
+21,hadoop,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.0952695781292584,,Pending analysis
+22,microsoft sql server,Phase 3 - Supporting Skills,Supporting,10.714285714285714,0.08781917543018786,,Pending analysis
+23,airflow,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.07573467910945708,,Pending analysis
+24,salesforce,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.0744025299087466,,Pending analysis
+25,dbt,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.0735900833591775,,Pending analysis
+26,bigquery,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.07111656188032742,,Pending analysis
+27,elasticsearch,Phase 3 - Supporting Skills,Supporting,7.142857142857142,0.060169913633501555,,Pending analysis
+28,java,Phase 4 - Optional Skills,Rare,3.571428571428571,0.303466642232184,0.52,Available - preliminary
+29,ci/cd,Phase 4 - Optional Skills,Rare,3.571428571428571,0.21612370426757638,0.68,Available - preliminary
+30,linux,Phase 4 - Optional Skills,Rare,3.571428571428571,0.1863657936038043,0.6000000000000001,Available - preliminary
+31,scrum,Phase 4 - Optional Skills,Rare,3.571428571428571,0.16866630014942624,,Pending analysis
+32,r,Phase 4 - Optional Skills,Rare,3.571428571428571,0.16803476275057092,0.6,Available - preliminary
+33,problem solving,Phase 4 - Optional Skills,Rare,3.571428571428571,0.15021027751933613,,Pending analysis
+34,jenkins,Phase 4 - Optional Skills,Rare,3.571428571428571,0.14225685340250172,,Pending analysis
+35,windows,Phase 4 - Optional Skills,Rare,3.571428571428571,0.139099166408225,0.7333333333333334,Available - preliminary
+36,microservices,Phase 4 - Optional Skills,Rare,3.571428571428571,0.136803264822803,0.6000000000000001,Available - preliminary
+37,bash,Phase 4 - Optional Skills,Rare,3.571428571428571,0.11174899207758887,,Pending analysis
+38,microsoft azure,Phase 4 - Optional Skills,Rare,3.571428571428571,0.10927547059873881,0.6000000000000001,Available - preliminary
+39,scala,Phase 4 - Optional Skills,Rare,3.571428571428571,0.10906166887516798,,Pending analysis
+40,tableau,Phase 4 - Optional Skills,Rare,3.571428571428571,0.10121021173419043,,Pending analysis
+41,critical thinking,Phase 4 - Optional Skills,Rare,3.571428571428571,0.09300022554907102,,Pending analysis
+42,postgresql,Phase 4 - Optional Skills,Rare,3.571428571428571,0.08313245369195635,0.6000000000000001,Available - preliminary
+43,presentation skills,Phase 4 - Optional Skills,Rare,3.571428571428571,0.07737296418468709,0.5,Available - preliminary
+44,shell scripting,Phase 4 - Optional Skills,Rare,3.571428571428571,0.072603541120415,0.6000000000000001,Available - preliminary
+45,decision making,Phase 4 - Optional Skills,Rare,3.571428571428571,0.0713865159247042,,Pending analysis
+46,network security,Phase 4 - Optional Skills,Rare,3.571428571428571,0.06997871380642251,,Pending analysis
+47,amazon web services,Phase 4 - Optional Skills,Rare,3.571428571428571,0.06529810068886446,,Pending analysis
+48,redis,Phase 4 - Optional Skills,Rare,3.571428571428571,0.06227856250058737,,Pending analysis
+49,perl,Phase 4 - Optional Skills,Rare,3.571428571428571,0.057940032140742614,,Pending analysis
+50,sap,Phase 4 - Optional Skills,Rare,3.571428571428571,0.05601252737131956,,Pending analysis
+51,apache spark,Phase 4 - Optional Skills,Rare,3.571428571428571,0.045141532042064905,,Pending analysis
+52,redux,Phase 4 - Optional Skills,Rare,3.571428571428571,0.03914192675293919,,Pending analysis
+53,red hat,Phase 4 - Optional Skills,Rare,3.571428571428571,0.03622435554051895,,Pending analysis
+54,looker,Phase 4 - Optional Skills,Rare,3.571428571428571,0.03455012358209516,,Pending analysis
+55,presto,Phase 4 - Optional Skills,Rare,3.571428571428571,0.030744452902534608,,Pending analysis
